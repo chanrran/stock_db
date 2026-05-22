@@ -4,14 +4,14 @@
 
 ## 한 줄 요약
 
-Google Sheets에 종목을 적어두면, 매 평일 KST 18:00에 GitHub Actions가 자동으로 시세를 받아 `data/` 폴더에 저장하고 commit합니다.
+Google Sheets에 종목을 적어두면, 매 평일 KST 21:00에 GitHub Actions가 자동으로 시세를 받아 `data/` 폴더에 저장하고 commit합니다.
 
 ## 데이터 흐름
 
 ```
 Google Sheets (종목 마스터)
         ↓ publish-to-web CSV
-GitHub Actions (매 평일 KST 18:00)
+GitHub Actions (매 평일 KST 21:00)
         ↓
 pykrx (한국거래소 데이터)
         ↓
@@ -40,7 +40,7 @@ git commit & push (자동)
 
 ### 새 종목 추가
 1. Google Sheets에서 관심종목 시트에 행 1개 추가 (`종목명`, `종목코드` 필수)
-2. 다음 평일 18:00에 자동으로 10년치 백필 + 일별 업데이트 시작
+2. 다음 평일 21:00에 자동으로 10년치 백필 + 일별 업데이트 시작
 
 ### 종목 제외
 1. Google Sheets에서 해당 행 삭제
@@ -60,8 +60,8 @@ GitHub repo → **Actions** 탭 → 좌측 `Daily Stock Data Update` → 우상�
 
 ## 자동 실행 스케줄
 
-- 매주 월~금 KST 18:00 (UTC 09:00)
-- 한국 정규장 마감(15:30) 후 충분히 여유 (pykrx 반영 지연 고려)
+- 매주 월~금 KST 21:00 (UTC 12:00)
+- NXT 야간장(20:00 마감) 종료 후 안전 마진 1시간 두고 실행
 - 휴장일은 자동 감지 → 변경 없음 → commit 자동 skip
 
 ## 폴더 구조

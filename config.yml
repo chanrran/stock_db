@@ -1,0 +1,34 @@
+# ─────────────────────────────────────────────────────────────
+# stock_db 설정 파일
+# 이 파일에 비밀 정보(토큰 등)는 절대 넣지 마세요.
+# 종목 마스터는 아래 Google Sheets URL에서 가져옵니다.
+# 종목 추가/제외는 Sheets에서만 하면 됩니다.
+# ─────────────────────────────────────────────────────────────
+
+# Google Sheets 종목 마스터 (publish-to-web CSV URL)
+sheets_csv_url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQGkr27xe2ImNpbM5zYewqyJJ7CFcPsZr9QqhSA9e_jQ_qS7JENhx6n9HTqmBaa0wCau06FA0HNeei3/pub?gid=1211814995&single=true&output=csv"
+
+# 신규 종목 백필 기간 (연 단위)
+backfill_years: 10
+
+# 디렉토리 (repo 루트 기준 상대경로)
+data_dir: "data"
+archive_dir: "archive"
+log_dir: "logs"
+
+# 타임존 (KRX는 KST 기준)
+timezone: "Asia/Seoul"
+
+# Google Sheets 컬럼 매핑
+# (시트의 헤더 텍스트와 정확히 일치해야 함)
+sheet_columns:
+  code: "종목코드"
+  name: "종목명"
+
+# 종목간 요청 간격(초). pykrx rate limit 보호.
+request_interval_sec: 0.5
+
+# 네트워크 재시도 설정
+retry:
+  max_attempts: 3
+  backoff_base_sec: 1.0

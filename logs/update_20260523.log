@@ -1,0 +1,94 @@
+2026-05-23 09:11:40 INFO === Daily update start ===
+2026-05-23 09:11:40 INFO log file: logs/update_20260523.log
+2026-05-23 09:11:41 INFO 종목 마스터: 29 종목
+2026-05-23 09:11:41 INFO 로컬 CSV: 0 종목
+2026-05-23 09:11:43 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:11:43 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:11:43 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:11:44 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:11:44 INFO [BACKFILL] 005930 삼성전자: 2452 rows → data/005930_삼성전자.csv
+2026-05-23 09:11:45 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:11:46 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:11:46 INFO [BACKFILL] 000660 SK하이닉스: 2452 rows → data/000660_SK하이닉스.csv
+2026-05-23 09:11:48 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:11:48 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:11:48 INFO [BACKFILL] 006400 삼성SDI: 2452 rows → data/006400_삼성SDI.csv
+2026-05-23 09:11:49 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:11:49 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:11:49 INFO [BACKFILL] 009150 삼성전기: 2452 rows → data/009150_삼성전기.csv
+2026-05-23 09:11:51 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:11:51 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:11:51 INFO [BACKFILL] 028260 삼성물산: 2452 rows → data/028260_삼성물산.csv
+2026-05-23 09:11:53 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:11:53 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:11:53 INFO [BACKFILL] 010140 삼성중공업: 2452 rows → data/010140_삼성중공업.csv
+2026-05-23 09:11:54 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:11:54 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:11:54 INFO [BACKFILL] 018260 삼성에스디에스: 2452 rows → data/018260_삼성에스디에스.csv
+2026-05-23 09:11:56 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:11:56 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:11:56 INFO [BACKFILL] 005380 현대차: 2452 rows → data/005380_현대차.csv
+2026-05-23 09:11:58 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:11:58 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:11:58 INFO [BACKFILL] 012330 현대모비스: 2452 rows → data/012330_현대모비스.csv
+2026-05-23 09:11:59 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:00 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:00 INFO [BACKFILL] 064350 현대로템: 2452 rows → data/064350_현대로템.csv
+2026-05-23 09:12:01 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:01 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:01 INFO [BACKFILL] 267260 HD현대일렉트릭: 2216 rows → data/267260_HD현대일렉트릭.csv
+2026-05-23 09:12:03 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:03 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:03 INFO [BACKFILL] 000880 한화: 2452 rows → data/000880_한화.csv
+2026-05-23 09:12:05 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:05 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:05 INFO [BACKFILL] 012450 한화에어로스페이스: 2452 rows → data/012450_한화에어로스페이스.csv
+2026-05-23 09:12:06 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:07 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:07 INFO [BACKFILL] 272210 한화시스템: 1601 rows → data/272210_한화시스템.csv
+2026-05-23 09:12:08 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:08 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:08 INFO [BACKFILL] 042660 한화오션: 2452 rows → data/042660_한화오션.csv
+2026-05-23 09:12:09 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:10 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:10 INFO [BACKFILL] 034020 두산에너빌리티: 2452 rows → data/034020_두산에너빌리티.csv
+2026-05-23 09:12:11 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:12 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:12 INFO [BACKFILL] 006260 LS: 2452 rows → data/006260_LS.csv
+2026-05-23 09:12:13 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:14 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:14 INFO [BACKFILL] 010120 LS일렉트릭: 2452 rows → data/010120_LS일렉트릭.csv
+2026-05-23 09:12:15 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:15 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:15 INFO [BACKFILL] 003550 LG: 2452 rows → data/003550_LG.csv
+2026-05-23 09:12:17 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:17 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:17 INFO [BACKFILL] 066570 LG전자: 2452 rows → data/066570_LG전자.csv
+2026-05-23 09:12:18 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:19 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:19 INFO [BACKFILL] 064400 LG씨엔에스: 317 rows → data/064400_LG씨엔에스.csv
+2026-05-23 09:12:20 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:20 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:20 INFO [BACKFILL] 034730 SK: 2452 rows → data/034730_SK.csv
+2026-05-23 09:12:22 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:22 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:22 INFO [BACKFILL] 402340 SK스퀘어: 1096 rows → data/402340_SK스퀘어.csv
+2026-05-23 09:12:23 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:24 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:24 INFO [BACKFILL] 096770 SK이노베이션: 2452 rows → data/096770_SK이노베이션.csv
+2026-05-23 09:12:25 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:26 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:26 INFO [BACKFILL] 005490 POSCO홀딩스: 2452 rows → data/005490_POSCO홀딩스.csv
+2026-05-23 09:12:27 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:27 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:27 INFO [BACKFILL] 278470 에이피알: 543 rows → data/278470_에이피알.csv
+2026-05-23 09:12:28 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:29 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:29 INFO [BACKFILL] 161890 한국콜마: 2452 rows → data/161890_한국콜마.csv
+2026-05-23 09:12:30 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:31 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:31 INFO [BACKFILL] 007660 이수페타시스: 2452 rows → data/007660_이수페타시스.csv
+2026-05-23 09:12:32 INFO 'NoneType' object is not subscriptable
+2026-05-23 09:12:32 INFO Expecting value: line 15 column 3 (char 33)
+2026-05-23 09:12:32 INFO [BACKFILL] 042700 한미반도체: 2452 rows → data/042700_한미반도체.csv
+2026-05-23 09:12:33 INFO === Daily update done === stats: {'backfill': 29, 'update': 0, 'skip': 0, 'holiday': 0, 'archive': 0, 'error': 0}

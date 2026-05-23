@@ -6,6 +6,15 @@ on:
   schedule:
     - cron: '0 12 * * 1-5'
   workflow_dispatch:
+    inputs:
+      force_backfill:
+        description: '모든 종목 강제 재백필 (기존 CSV를 archive로 옮기고 10년치 새로 받음)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 permissions:
   contents: write
@@ -33,8 +42,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run daily update
-        run: python scripts/daily_update.py
+      - name: Run daily update or force backfill
+        run: |
+          if [ "${{ github.event.inputs.force_backfill }}" = "true" ]; then
+            echo ">>> FORCE BACKFILL mode <<<"
+            python scripts/initial_backfill.py
+          else
+            python scripts/daily_update.py
+          fi
 
       - name: Commit and push changes
         run: |

@@ -22,8 +22,9 @@ git commit & push (자동)
 
 ## 데이터 구조
 
-종목당 CSV 1개. 컬럼:
+종목당 CSV 1개. 컬럼 20개:
 
+**가격·거래량 (8개)**
 | 컬럼 | 설명 |
 |---|---|
 | `date` | 거래일 (YYYY-MM-DD) |
@@ -31,10 +32,24 @@ git commit & push (자동)
 | `volume` | 거래량 (주) |
 | `trading_value` | 거래대금 (원) |
 | `change_rate` | 등락률 (%) |
-| `foreign_net` | 외국인 순매수 (주) |
-| `institution_net` | 기관 순매수 (주) |
 
-날짜는 오름차순(과거 → 최신) 정렬, UTF-8 인코딩.
+**투자자별 순매수 (12개, 단위: 주)**
+| 컬럼 | 의미 |
+|---|---|
+| `individual_net` | 개인 |
+| `foreign_net` | 외국인합계 |
+| `institution_net` | 기관합계 |
+| `pension_net` | 연기금 |
+| `trust_net` | 투신 |
+| `privateequity_net` | 사모 |
+| `insurance_net` | 보험 |
+| `bank_net` | 은행 |
+| `financial_net` | 금융투자 |
+| `other_corp_net` | 기타법인 |
+| `other_foreign_net` | 기타외국인 |
+| `other_finance_net` | 기타금융 |
+
+음수면 순매도. 날짜는 오름차순(과거 → 최신) 정렬, UTF-8 인코딩.
 
 ## 사용 방법
 
@@ -57,6 +72,12 @@ git commit & push (자동)
 
 ### 수동 실행 (즉시 동작 확인용)
 GitHub repo → **Actions** 탭 → 좌측 `Daily Stock Data Update` → 우상단 **Run workflow** 클릭
+- 기본값(`force_backfill: false`): 일일 업데이트만
+- `force_backfill: true` 선택: 모든 종목 강제 재백필 (10년치 새로 받음. 기존 CSV는 archive로 이동)
+
+### 강제 재백필이 필요한 경우
+- 스키마가 변경됐을 때
+- 특정 종목 데이터를 처음부터 다시 받고 싶을 때 → `python scripts/initial_backfill.py 005930` 로컬 실행도 가능
 
 ## 자동 실행 스케줄
 

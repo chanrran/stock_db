@@ -132,7 +132,9 @@ def find_csv_by_code(code: str, data_dir: str) -> Optional[str]:
     return scan_data_dir(data_dir).get(normalize_code(code))
 
 
-# ── pykrx 정규화 ─────────────────────────────────────────────
+# ── pykrx 컬럼 매핑 ──────────────────────────────────────────
+# OHLCV: pykrx 1.0.45의 응답 컬럼명이 docstring과 실제가 다를 수 있어
+# 다양한 후보를 매핑. 예상 컬럼: 시가/고가/저가/종가/거래량/거래대금/등락률
 _OHLCV_COL_MAP = {
     "시가": "open",
     "고가": "high",
@@ -145,14 +147,39 @@ _OHLCV_COL_MAP = {
     "등락률(%)": "change_rate",
 }
 
+# Trader (detail=True): 한국 시장 12개 투자자 분류 + 외국인/기관 합계
+# 가능한 컬럼명 후보 → 우리 영문 키 매핑
+_TRADER_COL_MAP = {
+    "개인": "individual_net",
+    "외국인합계": "foreign_net",
+    "외국인": "foreign_net",  # detail=True에서 합계 대신 "외국인" 단독일 수 있음
+    "기관합계": "institution_net",
+    "기관": "institution_net",
+    "연기금": "pension_net",
+    "연기금 등": "pension_net",
+    "사모": "privateequity_net",
+    "사모펀드": "privateequity_net",
+    "투신": "trust_net",
+    "투자신탁": "trust_net",
+    "보험": "insurance_net",
+    "은행": "bank_net",
+    "금융투자": "financial_net",
+    "기타법인": "other_corp_net",
+    "기타외국인": "other_foreign_net",
+    "기타금융": "other_finance_net",
+}
+
 # 디버깅: 첫 호출에만 컬럼명 로그
 _DEBUG_COLS_LOGGED = False
+_DEBUG_COLS_LOGGED_TRADER = False
 
-_FINAL_COLS = [
-    "date", "open", "high", "low", "close",
-    "volume", "trading_value", "change_rate",
-    "foreign_net", "institution_net",
+_OHLCV_COLS = ["open", "high", "low", "close", "volume", "trading_value", "change_rate"]
+_TRADER_COLS = [
+    "individual_net", "foreign_net", "institution_net", "pension_net",
+    "trust_net", "privateequity_net", "insurance_net", "bank_net",
+    "financial_net", "other_corp_net", "other_foreign_net", "other_finance_net",
 ]
+_FINAL_COLS = ["date"] + _OHLCV_COLS + _TRADER_COLS
 
 
 def _find_col(cols, candidates):
@@ -163,39 +190,47 @@ def _find_col(cols, candidates):
 
 
 def _merge_and_normalize(df_ohlcv: pd.DataFrame, df_trader: pd.DataFrame) -> pd.DataFrame:
-    """pykrx 결과(한글 컬럼, 날짜 index)를 우리 스키마로 변환."""
+    """pykrx 결과(한글 컬럼, 날짜 index)를 우리 스키마(영문)로 변환."""
     if df_ohlcv is None or df_ohlcv.empty:
         return pd.DataFrame(columns=_FINAL_COLS)
 
+    # OHLCV 정규화
     df_o = df_ohlcv.rename(columns=_OHLCV_COL_MAP).copy()
     df_o.index.name = "date"
     df_o = df_o.reset_index()
     df_o["date"] = pd.to_datetime(df_o["date"]).dt.strftime("%Y-%m-%d")
 
+    # Trader 정규화 (한글 → 영문 _net)
     if df_trader is not None and not df_trader.empty:
         df_t = df_trader.copy()
         df_t.index.name = "date"
         df_t = df_t.reset_index()
         df_t["date"] = pd.to_datetime(df_t["date"]).dt.strftime("%Y-%m-%d")
-        foreign_col = _find_col(df_t.columns, ["외국인합계", "외국인"])
-        inst_col = _find_col(df_t.columns, ["기관합계", "기관"])
-        out_t = pd.DataFrame({"date": df_t["date"]})
-        out_t["foreign_net"] = df_t[foreign_col] if foreign_col else 0
-        out_t["institution_net"] = df_t[inst_col] if inst_col else 0
-        df_o = df_o.merge(out_t, on="date", how="left")
-    else:
-        df_o["foreign_net"] = 0
-        df_o["institution_net"] = 0
+        # 매핑 적용 (한글 컬럼이 매핑 dict에 있으면 영문으로 rename)
+        df_t = df_t.rename(columns=_TRADER_COL_MAP)
+        # 우리가 쓸 trader 컬럼들만 (없는 건 무시)
+        keep_cols = ["date"] + [c for c in _TRADER_COLS if c in df_t.columns]
+        df_t = df_t[keep_cols]
+        # 합계 보정: 기관합계가 없으면 세부 기관들 합산
+        if "institution_net" not in df_t.columns:
+            sub_inst = [c for c in [
+                "financial_net", "insurance_net", "trust_net", "privateequity_net",
+                "bank_net", "other_finance_net", "pension_net",
+            ] if c in df_t.columns]
+            if sub_inst:
+                df_t["institution_net"] = df_t[sub_inst].sum(axis=1)
+        # 외국인합계가 없으면 외국인 + 기타외국인 합산 (이미 매핑됐을 수 있음)
+        # (별도 처리 불필요 — 매핑이 알아서 처리)
+        df_o = df_o.merge(df_t, on="date", how="left")
 
-    # 누락 컬럼 보강
+    # 누락 컬럼 0으로 보강
     for c in _FINAL_COLS:
         if c not in df_o.columns:
             df_o[c] = 0
     df_o = df_o[_FINAL_COLS]
 
-    # 타입
-    int_cols = ["open", "high", "low", "close", "volume", "trading_value",
-                "foreign_net", "institution_net"]
+    # 타입 정리
+    int_cols = ["open", "high", "low", "close", "volume", "trading_value"] + _TRADER_COLS
     for c in int_cols:
         df_o[c] = pd.to_numeric(df_o[c], errors="coerce").fillna(0).astype("int64")
     df_o["change_rate"] = (
@@ -207,11 +242,10 @@ def _merge_and_normalize(df_ohlcv: pd.DataFrame, df_trader: pd.DataFrame) -> pd.
 
 
 def _fetch_trader_with_fallback(code: str, fromdate: str, todate: str):
-    """수급 데이터 fetch. 여러 옵션을 순차 시도."""
-    # 시도 1: detail=False (기본)
+    """수급 데이터 fetch. detail=True를 우선 시도 (세부 12개 항목 확보)."""
     for attempt in [
-        {"detail": False},
-        {"detail": True},
+        {"detail": True},   # 세부 12개 (개인/연기금/사모/투신/보험/은행/금융투자/...)
+        {"detail": False},  # 합계만 (외인합계/기관합계/개인/기타법인)
     ]:
         try:
             df = stock.get_market_trading_volume_by_date(
@@ -225,32 +259,16 @@ def _fetch_trader_with_fallback(code: str, fromdate: str, todate: str):
     return None
 
 
-def _fetch_trading_value_fallback(code: str, fromdate: str, todate: str):
-    """거래대금만 별도로 fetch (OHLCV에 없을 때 대비)."""
-    try:
-        df = stock.get_market_ohlcv_by_date(
-            fromdate=fromdate, todate=todate, ticker=code, name_display=False
-        )
-        # 일부 응답엔 거래대금이 명시됨
-        if df is not None and not df.empty:
-            for col in ["거래대금", "거래대금(원)"]:
-                if col in df.columns:
-                    return df[col]
-    except Exception:
-        pass
-    return None
-
-
 def fetch_pykrx_data_with_retry(
     code: str,
     fromdate: str,
     todate: str,
     retry_config: Optional[dict] = None,
 ) -> pd.DataFrame:
-    """OHLCV + 외인/기관 수급을 한 DataFrame으로 반환.
+    """OHLCV + 외인/기관/세부 수급을 한 DataFrame으로 반환.
     빈 결과(휴장 등)는 빈 DataFrame.
     """
-    global _DEBUG_COLS_LOGGED
+    global _DEBUG_COLS_LOGGED, _DEBUG_COLS_LOGGED_TRADER
     cfg = retry_config or {}
     attempts = int(cfg.get("max_attempts", 3))
     backoff = float(cfg.get("backoff_base_sec", 1.0))
@@ -261,7 +279,7 @@ def fetch_pykrx_data_with_retry(
             df_ohlcv = stock.get_market_ohlcv_by_date(
                 fromdate=fromdate, todate=todate, ticker=code
             )
-            # 첫 성공 호출에서 컬럼명 로깅 (디버깅)
+            # 첫 비어있지 않은 응답에서 컬럼명 디버깅 로그
             if not _DEBUG_COLS_LOGGED and df_ohlcv is not None and not df_ohlcv.empty:
                 logging.info(
                     "[DEBUG_COLS] OHLCV columns for %s: %s",
@@ -272,12 +290,12 @@ def fetch_pykrx_data_with_retry(
             df_trader = _fetch_trader_with_fallback(code, fromdate, todate)
             if df_trader is None:
                 logging.warning("[%s] trader fetch 실패. 수급 0으로 채움.", code)
-            elif not _DEBUG_COLS_LOGGED_TRADER[0]:
+            elif not _DEBUG_COLS_LOGGED_TRADER:
                 logging.info(
                     "[DEBUG_COLS] Trader columns for %s: %s",
                     code, list(df_trader.columns),
                 )
-                _DEBUG_COLS_LOGGED_TRADER[0] = True
+                _DEBUG_COLS_LOGGED_TRADER = True
 
             return _merge_and_normalize(df_ohlcv, df_trader)
         except Exception as e:  # noqa: BLE001
@@ -290,10 +308,6 @@ def fetch_pykrx_data_with_retry(
             if i + 1 < attempts:
                 time.sleep(wait)
     raise RuntimeError(f"[{code}] pykrx 최종 실패: {last_exc}")
-
-
-# trader 디버깅 플래그 (mutable list 사용 — global 안 써도 됨)
-_DEBUG_COLS_LOGGED_TRADER = [False]
 
 
 # ── archive ─────────────────────────────────────────────────

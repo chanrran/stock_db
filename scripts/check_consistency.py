@@ -23,7 +23,10 @@ from utils import get_kst_today, load_config, scan_data_dir  # noqa: E402
 REQUIRED_COLS = [
     "date", "open", "high", "low", "close",
     "volume", "trading_value", "change_rate",
-    "foreign_net", "institution_net",
+    # 수급 12개 (세부)
+    "individual_net", "foreign_net", "institution_net", "pension_net",
+    "trust_net", "privateequity_net", "insurance_net", "bank_net",
+    "financial_net", "other_corp_net", "other_foreign_net", "other_finance_net",
 ]
 
 

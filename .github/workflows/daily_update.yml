@@ -43,6 +43,11 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run daily update or force backfill
+        env:
+          # KRX 인증 (GitHub Secrets에서 주입)
+          # pykrx v1.2.8부터 KRX 사이트가 일부 endpoint에 로그인 요구
+          KRX_ID: ${{ secrets.KRX_ID }}
+          KRX_PW: ${{ secrets.KRX_PW }}
         run: |
           if [ "${{ github.event.inputs.force_backfill }}" = "true" ]; then
             echo ">>> FORCE BACKFILL mode <<<"

@@ -118,15 +118,31 @@ Private repo는 토큰 헤더 필요, 또는 Claude에게 직접 CSV 첨부.
 | 증상 | 원인 / 해결 |
 |---|---|
 | Actions 실패 (특정 종목) | 상장폐지·종목코드 오타. 시트 확인 후 재실행 |
-| Actions 실패 (전체) | Sheets URL 만료 또는 게시 해제. `config.yml`의 `sheets_csv_url` 재발급 |
+| Actions 실패 (전체) | Sheets URL 만료/게시 해제 또는 KRX 인증 실패. `config.yml`의 `sheets_csv_url` 재발급 또는 GitHub Secrets의 KRX_ID/KRX_PW 재확인 |
+| 로그에 "KRX 로그인 실패" | GitHub Secrets에 `KRX_ID`/`KRX_PW` 미등록 또는 오타 |
+| 로그에 "비밀번호 변경이 필요" (CD010) | KRX 사이트에서 비밀번호 변경 → GitHub Secrets `KRX_PW` 재등록 |
 | 한글 종목명 깨짐 | encoding 미지정. utils가 utf-8 강제 사용 중 |
 | 종목코드 앞 0 사라짐 | `utils.normalize_code()`가 6자리 zero-pad |
 | Actions push 권한 오류 | workflow의 `permissions: contents: write` 확인 |
 | `KRX_ID 환경 변수 필요` 에러 | pykrx 신버전 설치됨. `requirements.txt`의 `pykrx==1.0.45` 고정 확인 |
 
+## 인증 (KRX)
+
+pykrx v1.2.8부터 KRX 사이트가 일부 endpoint에 로그인을 요구합니다. 따라서 본 시스템은 KRX 계정 인증을 사용합니다.
+
+**셋업 (이미 완료된 경우 skip)**:
+1. https://data.krx.co.kr 회원가입
+2. GitHub repo Settings → Secrets and variables → Actions → 두 비밀 등록:
+   - `KRX_ID`: KRX 로그인 ID
+   - `KRX_PW`: KRX 비밀번호
+
+**작동 방식**: GitHub Actions가 실행될 때 Secrets를 환경변수로 주입 → pykrx가 자동 로그인. 1시간 만료 시 자동 재로그인. 비밀번호 만료(CD010) 시 KRX 사이트에서 변경 후 Secrets 재등록 필요.
+
+**비밀번호 절대 금지**: 코드, config.yml, README, 채팅 어디에도 평문으로 저장하지 마세요.
+
 ## 기술 메모
 
-- 데이터 소스: `pykrx` 1.0.45 (인증 불필요. 최신 버전은 KRX 로그인을 요구하므로 의존성 고정)
+- 데이터 소스: `pykrx` 1.2.8 (KRX 통합회원 인증 필요)
 - 저장 포맷: 종목별 CSV (`{종목코드}_{종목명}.csv`). 종목코드가 안정 키 — 종목명이 바뀌어도 코드 기준으로 매칭, 파일 자동 rename
 - 휴장일: pykrx가 빈 결과 반환 → 자동 skip. 공휴일 캘린더 관리 불필요
 - 재시도: 네트워크 오류 시 3회 지수 백오프 (1s → 2s → 4s)

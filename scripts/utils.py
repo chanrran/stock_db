@@ -237,25 +237,36 @@ def _merge_and_normalize(df_ohlcv: pd.DataFrame, df_trader: pd.DataFrame) -> pd.
         pd.to_numeric(df_o["change_rate"], errors="coerce").fillna(0.0).round(4)
     )
 
+    # trading_value fallback: pykrx 1.0.45 OHLCV에 거래대금이 없는 경우
+    # close * volume으로 근사값 채움 (정확한 거래대금이 아닌 종가 기준 근사)
+    if (df_o["trading_value"] == 0).all() and (df_o["volume"] > 0).any():
+        df_o["trading_value"] = (df_o["close"] * df_o["volume"]).astype("int64")
+
     df_o = df_o.sort_values("date").drop_duplicates(subset=["date"], keep="last")
     return df_o.reset_index(drop=True)
 
 
 def _fetch_trader_with_fallback(code: str, fromdate: str, todate: str):
-    """수급 데이터 fetch. detail=True를 우선 시도 (세부 12개 항목 확보)."""
-    for attempt in [
-        {"detail": True},   # 세부 12개 (개인/연기금/사모/투신/보험/은행/금융투자/...)
-        {"detail": False},  # 합계만 (외인합계/기관합계/개인/기타법인)
-    ]:
-        try:
-            df = stock.get_market_trading_volume_by_date(
-                fromdate=fromdate, todate=todate, ticker=code, **attempt
-            )
-            if df is not None and not df.empty:
-                return df
-        except Exception as e:
-            logging.debug("[%s] trader fetch attempt %s 실패: %s", code, attempt, e)
-            continue
+    """수급 데이터 fetch. detail=True를 우선, retry 3회 with backoff.
+    KRX endpoint가 transient하게 JSON 대신 HTML 응답 줄 때 대비.
+    """
+    # 두 옵션 × 3회 시도
+    for opt_name, opt in [("detail=True", {"detail": True}),
+                          ("detail=False", {"detail": False})]:
+        for attempt in range(3):
+            try:
+                df = stock.get_market_trading_volume_by_date(
+                    fromdate=fromdate, todate=todate, ticker=code, **opt
+                )
+                if df is not None and not df.empty:
+                    return df
+            except Exception as e:
+                logging.warning(
+                    "[%s] trader fetch %s attempt %d 실패: %s",
+                    code, opt_name, attempt + 1, str(e)[:80],
+                )
+            if attempt < 2:
+                time.sleep(2.0 * (attempt + 1))  # 2s, 4s 대기
     return None
 
 

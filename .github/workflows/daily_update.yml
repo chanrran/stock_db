@@ -40,7 +40,12 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/ archive/ logs/
+          # 폴더가 존재하는 경우에만 add (빈 폴더 안전 처리)
+          for d in data archive logs; do
+            if [ -d "$d" ]; then
+              git add "$d"
+            fi
+          done
           if git diff --staged --quiet; then
             echo "No changes to commit (likely holiday or already up to date)"
           else

@@ -140,8 +140,13 @@ _OHLCV_COL_MAP = {
     "종가": "close",
     "거래량": "volume",
     "거래대금": "trading_value",
+    "거래대금(원)": "trading_value",
     "등락률": "change_rate",
+    "등락률(%)": "change_rate",
 }
+
+# 디버깅: 첫 호출에만 컬럼명 로그
+_DEBUG_COLS_LOGGED = False
 
 _FINAL_COLS = [
     "date", "open", "high", "low", "close",
@@ -201,6 +206,41 @@ def _merge_and_normalize(df_ohlcv: pd.DataFrame, df_trader: pd.DataFrame) -> pd.
     return df_o.reset_index(drop=True)
 
 
+def _fetch_trader_with_fallback(code: str, fromdate: str, todate: str):
+    """수급 데이터 fetch. 여러 옵션을 순차 시도."""
+    # 시도 1: detail=False (기본)
+    for attempt in [
+        {"detail": False},
+        {"detail": True},
+    ]:
+        try:
+            df = stock.get_market_trading_volume_by_date(
+                fromdate=fromdate, todate=todate, ticker=code, **attempt
+            )
+            if df is not None and not df.empty:
+                return df
+        except Exception as e:
+            logging.debug("[%s] trader fetch attempt %s 실패: %s", code, attempt, e)
+            continue
+    return None
+
+
+def _fetch_trading_value_fallback(code: str, fromdate: str, todate: str):
+    """거래대금만 별도로 fetch (OHLCV에 없을 때 대비)."""
+    try:
+        df = stock.get_market_ohlcv_by_date(
+            fromdate=fromdate, todate=todate, ticker=code, name_display=False
+        )
+        # 일부 응답엔 거래대금이 명시됨
+        if df is not None and not df.empty:
+            for col in ["거래대금", "거래대금(원)"]:
+                if col in df.columns:
+                    return df[col]
+    except Exception:
+        pass
+    return None
+
+
 def fetch_pykrx_data_with_retry(
     code: str,
     fromdate: str,
@@ -210,6 +250,7 @@ def fetch_pykrx_data_with_retry(
     """OHLCV + 외인/기관 수급을 한 DataFrame으로 반환.
     빈 결과(휴장 등)는 빈 DataFrame.
     """
+    global _DEBUG_COLS_LOGGED
     cfg = retry_config or {}
     attempts = int(cfg.get("max_attempts", 3))
     backoff = float(cfg.get("backoff_base_sec", 1.0))
@@ -220,13 +261,24 @@ def fetch_pykrx_data_with_retry(
             df_ohlcv = stock.get_market_ohlcv_by_date(
                 fromdate=fromdate, todate=todate, ticker=code
             )
-            try:
-                df_trader = stock.get_market_trading_volume_by_date(
-                    fromdate=fromdate, todate=todate, ticker=code, detail=False
+            # 첫 성공 호출에서 컬럼명 로깅 (디버깅)
+            if not _DEBUG_COLS_LOGGED and df_ohlcv is not None and not df_ohlcv.empty:
+                logging.info(
+                    "[DEBUG_COLS] OHLCV columns for %s: %s",
+                    code, list(df_ohlcv.columns),
                 )
-            except Exception as e_trader:  # 수급은 옵션. 실패해도 OHLCV는 살린다.
-                logging.warning("[%s] trader fetch 실패: %s. 수급 0으로 채움.", code, e_trader)
-                df_trader = None
+                _DEBUG_COLS_LOGGED = True
+
+            df_trader = _fetch_trader_with_fallback(code, fromdate, todate)
+            if df_trader is None:
+                logging.warning("[%s] trader fetch 실패. 수급 0으로 채움.", code)
+            elif not _DEBUG_COLS_LOGGED_TRADER[0]:
+                logging.info(
+                    "[DEBUG_COLS] Trader columns for %s: %s",
+                    code, list(df_trader.columns),
+                )
+                _DEBUG_COLS_LOGGED_TRADER[0] = True
+
             return _merge_and_normalize(df_ohlcv, df_trader)
         except Exception as e:  # noqa: BLE001
             last_exc = e
@@ -238,6 +290,10 @@ def fetch_pykrx_data_with_retry(
             if i + 1 < attempts:
                 time.sleep(wait)
     raise RuntimeError(f"[{code}] pykrx 최종 실패: {last_exc}")
+
+
+# trader 디버깅 플래그 (mutable list 사용 — global 안 써도 됨)
+_DEBUG_COLS_LOGGED_TRADER = [False]
 
 
 # ── archive ─────────────────────────────────────────────────

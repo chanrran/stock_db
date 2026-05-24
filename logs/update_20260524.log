@@ -1,0 +1,409 @@
+2026-05-24 00:47:23 INFO === Daily update start ===
+2026-05-24 00:47:23 INFO log file: logs/update_20260524.log
+2026-05-24 00:47:24 INFO 종목 마스터: 199 종목
+2026-05-24 00:47:24 INFO 로컬 CSV: 29 종목
+2026-05-24 00:47:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:47:33 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:47:37 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:47:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:47:39 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:47:44 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:47:44 WARNING [005930] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:47:44 INFO [HOLIDAY] 005930 삼성전자: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:47:45 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:47:47 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:47:51 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:47:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:47:54 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:47:58 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:47:58 WARNING [000660] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:47:58 INFO [HOLIDAY] 000660 SK하이닉스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:47:59 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:48:01 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:48:05 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:48:06 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:48:08 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:48:12 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:48:12 WARNING [006400] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:48:12 INFO [HOLIDAY] 006400 삼성SDI: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:48:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:48:15 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:48:20 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:48:20 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:48:22 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:48:26 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:48:26 WARNING [009150] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:48:26 INFO [HOLIDAY] 009150 삼성전기: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:48:27 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:48:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:48:34 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:48:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:48:36 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:48:41 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:48:41 WARNING [028260] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:48:41 INFO [HOLIDAY] 028260 삼성물산: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:48:42 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:48:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:48:48 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:48:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:48:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:48:55 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:48:55 WARNING [010140] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:48:55 INFO [HOLIDAY] 010140 삼성중공업: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:48:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:48:58 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:49:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:49:02 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:49:05 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:49:09 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:49:09 WARNING [018260] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:49:09 INFO [HOLIDAY] 018260 삼성에스디에스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:49:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:49:12 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:49:16 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:49:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:49:19 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:49:23 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:49:23 WARNING [005380] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:49:23 INFO [HOLIDAY] 005380 현대차: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:49:24 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:49:26 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:49:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:49:31 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:49:33 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:49:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:49:37 WARNING [012330] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:49:37 INFO [HOLIDAY] 012330 현대모비스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:49:38 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:49:40 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:49:45 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:49:45 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:49:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:49:52 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:49:52 WARNING [064350] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:49:52 INFO [HOLIDAY] 064350 현대로템: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:49:53 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:49:55 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:49:59 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:49:59 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:50:02 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:50:06 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:50:06 WARNING [267260] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:50:06 INFO [HOLIDAY] 267260 HD현대일렉트릭: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:50:07 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:50:09 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:50:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:50:14 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:50:16 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:50:20 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:50:20 WARNING [000880] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:50:20 INFO [HOLIDAY] 000880 한화: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:50:21 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:50:24 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:50:28 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:50:28 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:50:30 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:50:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:50:34 WARNING [012450] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:50:34 INFO [HOLIDAY] 012450 한화에어로스페이스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:50:35 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:50:38 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:50:42 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:50:42 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:50:44 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:50:49 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:50:49 WARNING [272210] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:50:49 INFO [HOLIDAY] 272210 한화시스템: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:50:49 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:50:52 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:50:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:50:56 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:50:58 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:51:03 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:51:03 WARNING [042660] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:51:03 INFO [HOLIDAY] 042660 한화오션: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:51:04 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:51:06 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:51:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:51:10 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:51:13 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:51:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:51:17 WARNING [034020] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:51:17 INFO [HOLIDAY] 034020 두산에너빌리티: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:51:18 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:51:20 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:51:24 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:51:24 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:51:27 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:51:31 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:51:31 WARNING [006260] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:51:31 INFO [HOLIDAY] 006260 LS: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:51:32 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:51:34 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:51:39 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:51:39 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:51:41 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:51:46 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:51:46 WARNING [010120] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:51:46 INFO [HOLIDAY] 010120 LS일렉트릭: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:51:47 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:51:49 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:51:53 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:51:54 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:51:56 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:52:00 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:52:00 WARNING [003550] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:52:00 INFO [HOLIDAY] 003550 LG: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:52:01 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:52:03 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:52:08 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:52:08 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:52:10 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:52:14 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:52:14 WARNING [066570] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:52:14 INFO [HOLIDAY] 066570 LG전자: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:52:16 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:52:18 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:52:22 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:52:22 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:52:25 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:52:29 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:52:29 WARNING [064400] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:52:29 INFO [HOLIDAY] 064400 LG씨엔에스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:52:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:52:32 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:52:36 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:52:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:52:39 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:52:43 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:52:43 WARNING [034730] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:52:43 INFO [HOLIDAY] 034730 SK: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:52:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:52:46 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:52:51 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:52:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:52:53 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:52:57 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:52:57 WARNING [402340] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:52:57 INFO [HOLIDAY] 402340 SK스퀘어: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:52:58 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:53:00 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:53:05 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:53:05 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:53:07 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:53:11 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:53:11 WARNING [096770] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:53:11 INFO [HOLIDAY] 096770 SK이노베이션: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:53:12 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:53:15 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:53:19 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:53:19 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:53:21 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:53:25 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:53:25 WARNING [005490] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:53:25 INFO [HOLIDAY] 005490 POSCO홀딩스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:53:26 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:53:29 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:53:33 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:53:33 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:53:35 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:53:40 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:53:40 WARNING [278470] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:53:40 INFO [HOLIDAY] 278470 에이피알: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:53:41 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:53:43 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:53:47 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:53:47 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:53:49 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:53:54 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:53:54 WARNING [161890] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:53:54 INFO [HOLIDAY] 161890 한국콜마: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:53:55 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:53:57 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:54:01 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:54:01 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:54:04 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:54:08 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:54:08 WARNING [007660] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:54:08 INFO [HOLIDAY] 007660 이수페타시스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:54:09 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:54:11 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:54:15 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-05-24 00:54:15 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:54:18 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:54:22 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-05-24 00:54:22 WARNING [042700] trader fetch 실패. 수급 0으로 채움.
+2026-05-24 00:54:22 INFO [HOLIDAY] 042700 한미반도체: 신규 거래일 없음 (휴장 또는 미정산)
+2026-05-24 00:54:24 INFO [DEBUG_COLS] OHLCV columns for 090430: ['시가', '고가', '저가', '종가', '거래량', '등락률']
+2026-05-24 00:54:32 INFO [DEBUG_COLS] Trader columns for 090430: ['금융투자', '보험', '투신', '사모', '은행', '기타금융', '연기금', '기타법인', '개인', '외국인', '기타외국인', '전체']
+2026-05-24 00:54:32 INFO [BACKFILL] 090430 아모레퍼시픽: 2451 rows → data/090430_아모레퍼시픽.csv
+2026-05-24 00:54:40 INFO [BACKFILL] 002790 아모레퍼시픽홀딩스: 2451 rows → data/002790_아모레퍼시픽홀딩스.csv
+2026-05-24 00:54:48 INFO [BACKFILL] 002030 아세아: 2451 rows → data/002030_아세아.csv
+2026-05-24 00:54:57 INFO [BACKFILL] 282330 BGF리테일: 2072 rows → data/282330_BGF리테일.csv
+2026-05-24 00:55:06 INFO [BACKFILL] 138930 BNK금융지주: 2451 rows → data/138930_BNK금융지주.csv
+2026-05-24 00:55:13 INFO [BACKFILL] 068270 셀트리온: 2451 rows → data/068270_셀트리온.csv
+2026-05-24 00:55:21 INFO [BACKFILL] 030000 제일기획: 2451 rows → data/030000_제일기획.csv
+2026-05-24 00:55:30 INFO [BACKFILL] 185750 종근당: 2451 rows → data/185750_종근당.csv
+2026-05-24 00:55:38 INFO [BACKFILL] 001040 CJ: 2451 rows → data/001040_CJ.csv
+2026-05-24 00:55:46 INFO [BACKFILL] 097950 CJ제일제당: 2451 rows → data/097950_CJ제일제당.csv
+2026-05-24 00:55:54 INFO [BACKFILL] 000120 CJ대한통운: 2451 rows → data/000120_CJ대한통운.csv
+2026-05-24 00:56:02 INFO [BACKFILL] 192820 코스맥스: 2451 rows → data/192820_코스맥스.csv
+2026-05-24 00:56:10 INFO [BACKFILL] 005420 코스모화학: 2451 rows → data/005420_코스모화학.csv
+2026-05-24 00:56:18 INFO [BACKFILL] 021240 코웨이: 2451 rows → data/021240_코웨이.csv
+2026-05-24 00:56:26 INFO [BACKFILL] 112610 씨에스윈드: 2451 rows → data/112610_씨에스윈드.csv
+2026-05-24 00:56:34 INFO [BACKFILL] 001680 대상: 2451 rows → data/001680_대상.csv
+2026-05-24 00:56:42 INFO [BACKFILL] 047040 대우건설: 2451 rows → data/047040_대우건설.csv
+2026-05-24 00:56:49 INFO [BACKFILL] 003090 대웅: 2451 rows → data/003090_대웅.csv
+2026-05-24 00:56:57 INFO [BACKFILL] 069620 대웅제약: 2451 rows → data/069620_대웅제약.csv
+2026-05-24 00:57:05 INFO [BACKFILL] 005830 DB손해보험: 2451 rows → data/005830_DB손해보험.csv
+2026-05-24 00:57:13 INFO [BACKFILL] 000210 DL: 2451 rows → data/000210_DL.csv
+2026-05-24 00:57:19 INFO [BACKFILL] 375500 DL이앤씨: 1305 rows → data/375500_DL이앤씨.csv
+2026-05-24 00:57:27 INFO [BACKFILL] 007340 DN오토모티브: 2451 rows → data/007340_DN오토모티브.csv
+2026-05-24 00:57:35 INFO [BACKFILL] 026960 동서: 2451 rows → data/026960_동서.csv
+2026-05-24 00:57:42 INFO [BACKFILL] 006040 동원산업: 2451 rows → data/006040_동원산업.csv
+2026-05-24 00:57:50 INFO [BACKFILL] 014820 동원시스템즈: 2451 rows → data/014820_동원시스템즈.csv
+2026-05-24 00:57:58 INFO [BACKFILL] 000150 두산: 2451 rows → data/000150_두산.csv
+2026-05-24 00:58:06 INFO [BACKFILL] 241560 두산밥캣: 2331 rows → data/241560_두산밥캣.csv
+2026-05-24 00:58:12 INFO [BACKFILL] 454910 두산로보틱스: 640 rows → data/454910_두산로보틱스.csv
+2026-05-24 00:58:20 INFO [BACKFILL] 192080 더블유게임즈: 2451 rows → data/192080_더블유게임즈.csv
+2026-05-24 00:58:27 INFO [BACKFILL] 450080 에코프로머티: 610 rows → data/450080_에코프로머티.csv
+2026-05-24 00:58:35 INFO [BACKFILL] 139480 이마트: 2451 rows → data/139480_이마트.csv
+2026-05-24 00:58:41 INFO [BACKFILL] 383220 F&F: 1226 rows → data/383220_F&F.csv
+2026-05-24 00:58:49 INFO [BACKFILL] 093370 후성: 2451 rows → data/093370_후성.csv
+2026-05-24 00:58:57 INFO [BACKFILL] 114090 GKL: 2451 rows → data/114090_GKL.csv
+2026-05-24 00:59:04 INFO [BACKFILL] 006280 GC녹십자: 2451 rows → data/006280_GC녹십자.csv
+2026-05-24 00:59:12 INFO [BACKFILL] 005250 녹십자홀딩스: 2451 rows → data/005250_녹십자홀딩스.csv
+2026-05-24 00:59:20 INFO [BACKFILL] 078930 GS: 2451 rows → data/078930_GS.csv
+2026-05-24 00:59:28 INFO [BACKFILL] 006360 GS건설: 2451 rows → data/006360_GS건설.csv
+2026-05-24 00:59:36 INFO [BACKFILL] 007070 GS리테일: 2451 rows → data/007070_GS리테일.csv
+2026-05-24 00:59:44 INFO [BACKFILL] 086790 하나금융지주: 2451 rows → data/086790_하나금융지주.csv
+2026-05-24 00:59:51 INFO [BACKFILL] 009420 한올바이오파마: 2451 rows → data/009420_한올바이오파마.csv
+2026-05-24 00:59:58 INFO [BACKFILL] 300720 한일시멘트: 1912 rows → data/300720_한일시멘트.csv
+2026-05-24 01:00:06 INFO [BACKFILL] 180640 한진칼: 2451 rows → data/180640_한진칼.csv
+2026-05-24 01:00:14 INFO [BACKFILL] 161390 한국타이어앤테크놀로지: 2451 rows → data/161390_한국타이어앤테크놀로지.csv
+2026-05-24 01:00:21 INFO [BACKFILL] 000240 한국앤컴퍼니: 2451 rows → data/000240_한국앤컴퍼니.csv
+2026-05-24 01:00:29 INFO [BACKFILL] 128940 한미약품: 2451 rows → data/128940_한미약품.csv
+2026-05-24 01:00:37 INFO [BACKFILL] 008930 한미사이언스: 2451 rows → data/008930_한미사이언스.csv
+2026-05-24 01:00:44 INFO [BACKFILL] 018880 한온시스템: 2451 rows → data/018880_한온시스템.csv
+2026-05-24 01:00:52 INFO [BACKFILL] 014680 한솔케미칼: 2451 rows → data/014680_한솔케미칼.csv
+2026-05-24 01:01:00 INFO [BACKFILL] 009240 한샘: 2451 rows → data/009240_한샘.csv
+2026-05-24 01:01:07 INFO [BACKFILL] 082740 한화엔진: 2451 rows → data/082740_한화엔진.csv
+2026-05-24 01:01:16 INFO [BACKFILL] 088350 한화생명: 2451 rows → data/088350_한화생명.csv
+2026-05-24 01:01:23 INFO [BACKFILL] 009830 한화솔루션: 2451 rows → data/009830_한화솔루션.csv
+2026-05-24 01:01:31 INFO [BACKFILL] 267250 HD현대: 2216 rows → data/267250_HD현대.csv
+2026-05-24 01:01:39 INFO [BACKFILL] 329180 HD현대중공업: 1142 rows → data/329180_HD현대중공업.csv
+2026-05-24 01:01:50 INFO [BACKFILL] 071970 HD현대마린엔진: 2451 rows → data/071970_HD현대마린엔진.csv
+2026-05-24 01:01:57 INFO [BACKFILL] 443060 HD현대마린솔루션: 496 rows → data/443060_HD현대마린솔루션.csv
+2026-05-24 01:02:05 INFO [BACKFILL] 009540 HD한국조선해양: 2451 rows → data/009540_HD한국조선해양.csv
+2026-05-24 01:02:14 INFO [BACKFILL] 017960 한국카본: 2451 rows → data/017960_한국카본.csv
+2026-05-24 01:02:21 INFO [BACKFILL] 000080 하이트진로: 2451 rows → data/000080_하이트진로.csv
+2026-05-24 01:02:29 INFO [BACKFILL] 204320 HL만도: 2451 rows → data/204320_HL만도.csv
+2026-05-24 01:02:35 INFO [BACKFILL] 011200 HMM: 2451 rows → data/011200_HMM.csv
+2026-05-24 01:02:42 INFO [BACKFILL] 008770 호텔신라: 2451 rows → data/008770_호텔신라.csv
+2026-05-24 01:02:49 INFO [BACKFILL] 298050 효성첨단소재: 1928 rows → data/298050_효성첨단소재.csv
+2026-05-24 01:02:56 INFO [BACKFILL] 352820 하이브: 1374 rows → data/352820_하이브.csv
+2026-05-24 01:03:04 INFO [BACKFILL] 298040 효성중공업: 1928 rows → data/298040_효성중공업.csv
+2026-05-24 01:03:12 INFO [BACKFILL] 298020 효성티앤씨: 1928 rows → data/298020_효성티앤씨.csv
+2026-05-24 01:03:19 INFO [BACKFILL] 307950 현대오토에버: 1757 rows → data/307950_현대오토에버.csv
+2026-05-24 01:03:26 INFO [BACKFILL] 069960 현대백화점: 2451 rows → data/069960_현대백화점.csv
+2026-05-24 01:03:33 INFO [BACKFILL] 000720 현대건설: 2451 rows → data/000720_현대건설.csv
+2026-05-24 01:03:40 INFO [BACKFILL] 017800 현대엘리베이: 2451 rows → data/017800_현대엘리베이.csv
+2026-05-24 01:03:49 INFO [BACKFILL] 086280 현대글로비스: 2451 rows → data/086280_현대글로비스.csv
+2026-05-24 01:03:56 INFO [BACKFILL] 001450 현대해상: 2451 rows → data/001450_현대해상.csv
+2026-05-24 01:04:03 INFO [BACKFILL] 004020 현대제철: 2451 rows → data/004020_현대제철.csv
+2026-05-24 01:04:10 INFO [BACKFILL] 011210 현대위아: 2451 rows → data/011210_현대위아.csv
+2026-05-24 01:04:17 INFO [BACKFILL] 139130 iM금융지주: 2451 rows → data/139130_iM금융지주.csv
+2026-05-24 01:04:24 INFO [BACKFILL] 024110 기업은행: 2451 rows → data/024110_기업은행.csv
+2026-05-24 01:04:30 INFO [BACKFILL] 457190 이수스페셜티케미컬: 725 rows → data/457190_이수스페셜티케미컬.csv
+2026-05-24 01:04:37 INFO [BACKFILL] 175330 JB금융지주: 2451 rows → data/175330_JB금융지주.csv
+2026-05-24 01:04:44 INFO [BACKFILL] 035720 카카오: 2451 rows → data/035720_카카오.csv
+2026-05-24 01:04:50 INFO [BACKFILL] 323410 카카오뱅크: 1171 rows → data/323410_카카오뱅크.csv
+2026-05-24 01:04:58 INFO [BACKFILL] 377300 카카오페이: 1114 rows → data/377300_카카오페이.csv
+2026-05-24 01:05:07 INFO [BACKFILL] 035250 강원랜드: 2451 rows → data/035250_강원랜드.csv
+2026-05-24 01:05:15 INFO [BACKFILL] 105560 KB금융: 2451 rows → data/105560_KB금융.csv
+2026-05-24 01:05:22 INFO [BACKFILL] 002380 KCC: 2451 rows → data/002380_KCC.csv
+2026-05-24 01:05:30 INFO [BACKFILL] 015760 한국전력: 2451 rows → data/015760_한국전력.csv
+2026-05-24 01:05:40 INFO [BACKFILL] 052690 한전기술: 2451 rows → data/052690_한전기술.csv
+2026-05-24 01:05:48 INFO [BACKFILL] 051600 한전KPS: 2451 rows → data/051600_한전KPS.csv
+2026-05-24 01:05:55 INFO [BACKFILL] 000270 기아: 2451 rows → data/000270_기아.csv
+2026-05-24 01:06:04 INFO [BACKFILL] 039490 키움증권: 2451 rows → data/039490_키움증권.csv
+2026-05-24 01:06:12 INFO [BACKFILL] 120110 코오롱인더: 2451 rows → data/120110_코오롱인더.csv
+2026-05-24 01:06:21 INFO [BACKFILL] 047810 한국항공우주: 2451 rows → data/047810_한국항공우주.csv
+2026-05-24 01:06:30 INFO [BACKFILL] 071320 한국지역난방공사: 2451 rows → data/071320_한국지역난방공사.csv
+2026-05-24 01:06:39 INFO [BACKFILL] 036460 한국가스공사: 2451 rows → data/036460_한국가스공사.csv
+2026-05-24 01:06:46 INFO [BACKFILL] 071050 한국금융지주: 2451 rows → data/071050_한국금융지주.csv
+2026-05-24 01:06:53 INFO [BACKFILL] 006650 대한유화: 2451 rows → data/006650_대한유화.csv
+2026-05-24 01:07:01 INFO [BACKFILL] 010130 고려아연: 2451 rows → data/010130_고려아연.csv
+2026-05-24 01:07:12 INFO [BACKFILL] 003490 대한항공: 2451 rows → data/003490_대한항공.csv
+2026-05-24 01:07:18 INFO [BACKFILL] 259960 크래프톤: 1169 rows → data/259960_크래프톤.csv
+2026-05-24 01:07:26 INFO [BACKFILL] 030200 KT: 2451 rows → data/030200_KT.csv
+2026-05-24 01:07:34 INFO [BACKFILL] 033780 KT&G: 2451 rows → data/033780_KT&G.csv
+2026-05-24 01:07:41 INFO [BACKFILL] 011780 금호석유: 2451 rows → data/011780_금호석유.csv
+2026-05-24 01:07:48 INFO [BACKFILL] 073240 금호타이어: 2451 rows → data/073240_금호타이어.csv
+2026-05-24 01:07:56 INFO [BACKFILL] 066970 엘앤에프: 2451 rows → data/066970_엘앤에프.csv
+2026-05-24 01:08:03 INFO [BACKFILL] 051910 LG화학: 2451 rows → data/051910_LG화학.csv
+2026-05-24 01:08:11 INFO [BACKFILL] 034220 LG디스플레이: 2451 rows → data/034220_LG디스플레이.csv
+2026-05-24 01:08:17 INFO [BACKFILL] 373220 LG에너지솔루션: 1054 rows → data/373220_LG에너지솔루션.csv
+2026-05-24 01:08:24 INFO [BACKFILL] 051900 LG생활건강: 2451 rows → data/051900_LG생활건강.csv
+2026-05-24 01:08:31 INFO [BACKFILL] 011070 LG이노텍: 2451 rows → data/011070_LG이노텍.csv
+2026-05-24 01:08:38 INFO [BACKFILL] 032640 LG유플러스: 2451 rows → data/032640_LG유플러스.csv
+2026-05-24 01:08:46 INFO [BACKFILL] 079550 LIG넥스원: 2451 rows → data/079550_LIG넥스원.csv
+2026-05-24 01:08:53 INFO [BACKFILL] 004990 롯데지주: 2451 rows → data/004990_롯데지주.csv
+2026-05-24 01:09:00 INFO [BACKFILL] 011170 롯데케미칼: 2451 rows → data/011170_롯데케미칼.csv
+2026-05-24 01:09:07 INFO [BACKFILL] 005300 롯데칠성: 2451 rows → data/005300_롯데칠성.csv
+2026-05-24 01:09:14 INFO [BACKFILL] 004000 롯데정밀화학: 2451 rows → data/004000_롯데정밀화학.csv
+2026-05-24 01:09:21 INFO [BACKFILL] 023530 롯데쇼핑: 2451 rows → data/023530_롯데쇼핑.csv
+2026-05-24 01:09:28 INFO [BACKFILL] 280360 롯데웰푸드: 2101 rows → data/280360_롯데웰푸드.csv
+2026-05-24 01:09:35 INFO [BACKFILL] 138040 메리츠금융지주: 2451 rows → data/138040_메리츠금융지주.csv
+2026-05-24 01:09:42 INFO [BACKFILL] 006800 미래에셋증권: 2451 rows → data/006800_미래에셋증권.csv
+2026-05-24 01:09:49 INFO [BACKFILL] 081660 미스토홀딩스: 2451 rows → data/081660_미스토홀딩스.csv
+2026-05-24 01:09:56 INFO [BACKFILL] 002840 미원상사: 2451 rows → data/002840_미원상사.csv
+2026-05-24 01:10:03 INFO [BACKFILL] 268280 미원에스씨: 2208 rows → data/268280_미원에스씨.csv
+2026-05-24 01:10:11 INFO [BACKFILL] 035420 NAVER: 2451 rows → data/035420_NAVER.csv
+2026-05-24 01:10:18 INFO [BACKFILL] 036570 엔씨소프트: 2451 rows → data/036570_엔씨소프트.csv
+2026-05-24 01:10:25 INFO [BACKFILL] 251270 넷마블: 2214 rows → data/251270_넷마블.csv
+2026-05-24 01:10:32 INFO [BACKFILL] 005940 NH투자증권: 2451 rows → data/005940_NH투자증권.csv
+2026-05-24 01:10:40 INFO [BACKFILL] 004370 농심: 2451 rows → data/004370_농심.csv
+2026-05-24 01:10:47 INFO [BACKFILL] 010060 OCI홀딩스: 2451 rows → data/010060_OCI홀딩스.csv
+2026-05-24 01:10:54 INFO [BACKFILL] 271560 오리온: 2175 rows → data/271560_오리온.csv
+2026-05-24 01:11:01 INFO [BACKFILL] 001800 오리온홀딩스: 2451 rows → data/001800_오리온홀딩스.csv
+2026-05-24 01:11:08 INFO [BACKFILL] 007310 오뚜기: 2451 rows → data/007310_오뚜기.csv
+2026-05-24 01:11:15 INFO [BACKFILL] 028670 팬오션: 2451 rows → data/028670_팬오션.csv
+2026-05-24 01:11:23 INFO [BACKFILL] 034230 파라다이스: 2451 rows → data/034230_파라다이스.csv
+2026-05-24 01:11:31 INFO [BACKFILL] 103140 풍산: 2451 rows → data/103140_풍산.csv
+2026-05-24 01:11:39 INFO [BACKFILL] 022100 포스코DX: 2451 rows → data/022100_포스코DX.csv
+2026-05-24 01:11:49 INFO [BACKFILL] 003670 포스코퓨처엠: 2451 rows → data/003670_포스코퓨처엠.csv
+2026-05-24 01:12:00 INFO [BACKFILL] 047050 포스코인터내셔널: 2451 rows → data/047050_포스코인터내셔널.csv
+2026-05-24 01:12:09 INFO [BACKFILL] 012750 에스원: 2451 rows → data/012750_에스원.csv
+2026-05-24 01:12:16 INFO [BACKFILL] 062040 산일전기: 440 rows → data/062040_산일전기.csv
+2026-05-24 01:12:26 INFO [BACKFILL] 207940 삼성바이오로직스: 2337 rows → data/207940_삼성바이오로직스.csv
+2026-05-24 01:12:36 INFO [BACKFILL] 029780 삼성카드: 2451 rows → data/029780_삼성카드.csv
+2026-05-24 01:12:46 INFO [BACKFILL] 028050 삼성E&A: 2451 rows → data/028050_삼성E&A.csv
+2026-05-24 01:12:55 INFO [BACKFILL] 000810 삼성화재: 2451 rows → data/000810_삼성화재.csv
+2026-05-24 01:13:03 INFO [BACKFILL] 032830 삼성생명: 2451 rows → data/032830_삼성생명.csv
+2026-05-24 01:13:13 INFO [BACKFILL] 016360 삼성증권: 2451 rows → data/016360_삼성증권.csv
+2026-05-24 01:13:22 INFO [BACKFILL] 003230 삼양식품: 2451 rows → data/003230_삼양식품.csv
+2026-05-24 01:13:30 INFO [BACKFILL] 137310 에스디바이오센서: 1186 rows → data/137310_에스디바이오센서.csv
+2026-05-24 01:13:38 INFO [BACKFILL] 001430 세아베스틸지주: 2451 rows → data/001430_세아베스틸지주.csv
+2026-05-24 01:13:46 INFO [BACKFILL] 003030 세아제강지주: 2451 rows → data/003030_세아제강지주.csv
+2026-05-24 01:13:54 INFO [BACKFILL] 004490 세방전지: 2451 rows → data/004490_세방전지.csv
+2026-05-24 01:14:02 INFO [BACKFILL] 055550 신한지주: 2451 rows → data/055550_신한지주.csv
+2026-05-24 01:14:09 INFO [BACKFILL] 004170 신세계: 2451 rows → data/004170_신세계.csv
+2026-05-24 01:14:16 INFO [BACKFILL] 326030 SK바이오팜: 1444 rows → data/326030_SK바이오팜.csv
+2026-05-24 01:14:23 INFO [BACKFILL] 302440 SK바이오사이언스: 1270 rows → data/302440_SK바이오사이언스.csv
+2026-05-24 01:14:31 INFO [BACKFILL] 285130 SK케미칼: 2055 rows → data/285130_SK케미칼.csv
+2026-05-24 01:14:38 INFO [BACKFILL] 361610 SKIET: 1233 rows → data/361610_SKIET.csv
+2026-05-24 01:14:44 INFO [BACKFILL] 017670 SK텔레콤: 2451 rows → data/017670_SK텔레콤.csv
+2026-05-24 01:14:53 INFO [BACKFILL] 011790 SKC: 2451 rows → data/011790_SKC.csv
+2026-05-24 01:15:02 INFO [BACKFILL] 005850 에스엘: 2451 rows → data/005850_에스엘.csv
+2026-05-24 01:15:09 INFO [BACKFILL] 010950 S-Oil: 2451 rows → data/010950_S-Oil.csv
+2026-05-24 01:15:18 INFO [BACKFILL] 003240 태광산업: 2451 rows → data/003240_태광산업.csv
+2026-05-24 01:15:25 INFO [BACKFILL] 001440 대한전선: 2451 rows → data/001440_대한전선.csv
+2026-05-24 01:15:34 INFO [BACKFILL] 069260 휴켐스: 2451 rows → data/069260_휴켐스.csv
+2026-05-24 01:15:41 INFO [BACKFILL] 316140 우리금융지주: 1787 rows → data/316140_우리금융지주.csv
+2026-05-24 01:15:50 INFO [BACKFILL] 008730 율촌화학: 2451 rows → data/008730_율촌화학.csv
+2026-05-24 01:16:00 INFO [BACKFILL] 000670 영풍: 2451 rows → data/000670_영풍.csv
+2026-05-24 01:16:08 INFO [BACKFILL] 111770 영원무역: 2451 rows → data/111770_영원무역.csv
+2026-05-24 01:16:15 INFO [BACKFILL] 009970 영원무역홀딩스: 2451 rows → data/009970_영원무역홀딩스.csv
+2026-05-24 01:16:22 INFO [BACKFILL] 000100 유한양행: 2451 rows → data/000100_유한양행.csv
+2026-05-24 01:16:23 INFO === Daily update done === stats: {'backfill': 170, 'update': 0, 'skip': 0, 'holiday': 29, 'archive': 0, 'error': 0}

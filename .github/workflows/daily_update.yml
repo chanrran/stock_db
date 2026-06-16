@@ -1,10 +1,10 @@
 name: Daily Stock Data Update
 
-# 평일 매일 KST 21:00 (UTC 12:00) 자동 실행 + 수동 트리거 가능
-# 21:00 선택 이유: NXT 야간장이 KST 20:00까지 운영 → 마감 후 안전 마진
+# 평일 매일 KST 16:00 (UTC 07:00) 자동 실행 + 수동 트리거 가능
+# 16:00 선택 이유: KRX 정규장 마감(15:30) 직후 → Project 20 저녁 19:00 실행 전에 데이터 준비
 on:
   schedule:
-    - cron: '0 12 * * 1-5'
+    - cron: '0 7 * * 1-5'
   workflow_dispatch:
     inputs:
       force_backfill:

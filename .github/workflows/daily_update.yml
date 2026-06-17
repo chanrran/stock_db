@@ -4,7 +4,9 @@ name: Daily Stock Data Update
 # 16:00 선택 이유: KRX 정규장 마감(15:30) 직후 → Project 20 저녁 19:00 실행 전에 데이터 준비
 on:
   schedule:
-    - cron: '0 7 * * 1-5'
+    - cron: '13 7 * * 1-5'   # 16:13 KST (1차)
+    - cron: '13 8 * * 1-5'   # 17:13 KST (밀리면 백업)
+    - cron: '13 9 * * 1-5'   # 18:13 KST (최종 안전망, 19시 전)
   workflow_dispatch:
     inputs:
       force_backfill:

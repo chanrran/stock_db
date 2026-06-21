@@ -68,5 +68,14 @@ jobs:
             echo "No changes to commit (likely holiday or already up to date)"
           else
             git commit -m "Daily update $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            # 실행 중 main이 바뀌어도 안전하게: pull --rebase 후 push, 최대 5회 재시도
+            for i in 1 2 3 4 5; do
+              if git pull --rebase origin main && git push; then
+                echo "push 성공 (시도 $i회)"
+                exit 0
+              fi
+              echo "push 충돌/실패, 재시도 $i..."
+              sleep 5
+            done
+            echo "push 5회 모두 실패"; exit 1
           fi

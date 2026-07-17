@@ -1,0 +1,1597 @@
+2026-07-17 07:00:38 INFO === Daily update start ===
+2026-07-17 07:00:38 INFO log file: logs/update_20260717.log
+2026-07-17 07:00:39 INFO 종목 마스터: 199 종목
+2026-07-17 07:00:39 INFO 로컬 CSV: 199 종목
+2026-07-17 07:00:46 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:00:48 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:00:52 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:00:53 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:00:55 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:00:59 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:00:59 WARNING [005930] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:00:59 INFO [HOLIDAY] 005930 삼성전자: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:01:00 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:01:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:01:07 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:01:07 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:01:09 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:01:13 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:01:13 WARNING [000660] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:01:13 INFO [HOLIDAY] 000660 SK하이닉스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:01:14 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:01:17 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:01:21 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:01:21 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:01:23 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:01:28 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:01:28 WARNING [006400] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:01:28 INFO [HOLIDAY] 006400 삼성SDI: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:01:29 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:01:31 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:01:35 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:01:35 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:01:38 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:01:42 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:01:42 WARNING [009150] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:01:42 INFO [HOLIDAY] 009150 삼성전기: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:01:43 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:01:45 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:01:49 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:01:49 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:01:52 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:01:56 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:01:56 WARNING [028260] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:01:56 INFO [HOLIDAY] 028260 삼성물산: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:01:57 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:01:59 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:02:03 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:02:04 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:02:06 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:02:10 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:02:10 WARNING [010140] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:02:10 INFO [HOLIDAY] 010140 삼성중공업: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:02:11 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:02:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:02:18 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:02:18 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:02:20 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:02:24 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:02:24 WARNING [018260] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:02:24 INFO [HOLIDAY] 018260 삼성에스디에스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:02:25 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:02:28 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:02:32 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:02:32 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:02:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:02:39 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:02:39 WARNING [005380] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:02:39 INFO [HOLIDAY] 005380 현대차: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:02:39 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:02:42 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:02:46 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:02:46 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:02:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:02:53 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:02:53 WARNING [012330] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:02:53 INFO [HOLIDAY] 012330 현대모비스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:02:54 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:02:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:03:00 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:03:01 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:03:03 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:03:07 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:03:07 WARNING [064350] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:03:07 INFO [HOLIDAY] 064350 현대로템: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:03:08 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:03:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:03:15 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:03:15 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:03:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:03:21 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:03:21 WARNING [267260] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:03:21 INFO [HOLIDAY] 267260 HD현대일렉트릭: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:03:22 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:03:24 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:03:29 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:03:29 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:03:31 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:03:35 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:03:35 WARNING [000880] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:03:35 INFO [HOLIDAY] 000880 한화: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:03:36 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:03:39 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:03:43 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:03:43 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:03:45 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:03:50 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:03:50 WARNING [012450] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:03:50 INFO [HOLIDAY] 012450 한화에어로스페이스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:03:51 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:03:53 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:03:57 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:03:57 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:03:59 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:04:04 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:04:04 WARNING [272210] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:04:04 INFO [HOLIDAY] 272210 한화시스템: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:04:05 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:04:07 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:04:11 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:04:11 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:04:14 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:04:18 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:04:18 WARNING [042660] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:04:18 INFO [HOLIDAY] 042660 한화오션: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:04:19 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:04:21 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:04:25 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:04:26 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:04:28 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:04:32 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:04:32 WARNING [034020] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:04:32 INFO [HOLIDAY] 034020 두산에너빌리티: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:04:33 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:04:35 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:04:39 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:04:40 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:04:42 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:04:46 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:04:46 WARNING [006260] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:04:46 INFO [HOLIDAY] 006260 LS: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:04:47 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:04:49 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:04:54 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:04:54 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:04:56 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:05:01 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:05:01 WARNING [010120] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:05:01 INFO [HOLIDAY] 010120 LS일렉트릭: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:05:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:05:04 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:05:08 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:05:09 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:05:11 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:05:15 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:05:15 WARNING [003550] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:05:15 INFO [HOLIDAY] 003550 LG: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:05:16 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:05:18 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:05:22 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:05:23 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:05:25 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:05:29 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:05:29 WARNING [066570] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:05:29 INFO [HOLIDAY] 066570 LG전자: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:05:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:05:32 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:05:37 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:05:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:05:39 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:05:43 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:05:43 WARNING [064400] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:05:43 INFO [HOLIDAY] 064400 LG씨엔에스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:05:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:05:47 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:05:51 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:05:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:05:53 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:05:58 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:05:58 WARNING [034730] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:05:58 INFO [HOLIDAY] 034730 SK: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:05:59 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:06:01 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:06:05 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:06:05 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:06:08 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:06:12 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:06:12 WARNING [402340] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:06:12 INFO [HOLIDAY] 402340 SK스퀘어: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:06:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:06:15 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:06:20 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:06:20 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:06:22 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:06:26 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:06:26 WARNING [096770] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:06:26 INFO [HOLIDAY] 096770 SK이노베이션: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:06:27 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:06:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:06:34 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:06:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:06:36 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:06:40 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:06:40 WARNING [005490] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:06:40 INFO [HOLIDAY] 005490 POSCO홀딩스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:06:41 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:06:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:06:48 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:06:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:06:50 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:06:55 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:06:55 WARNING [278470] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:06:55 INFO [HOLIDAY] 278470 에이피알: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:06:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:06:58 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:07:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:07:02 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:07:05 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:07:09 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:07:09 WARNING [161890] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:07:09 INFO [HOLIDAY] 161890 한국콜마: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:07:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:07:12 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:07:16 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:07:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:07:19 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:07:23 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:07:23 WARNING [007660] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:07:23 INFO [HOLIDAY] 007660 이수페타시스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:07:24 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:07:26 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:07:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:07:31 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:07:33 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:07:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:07:37 WARNING [042700] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:07:37 INFO [HOLIDAY] 042700 한미반도체: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:07:38 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:07:41 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:07:45 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:07:45 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:07:47 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:07:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:07:51 WARNING [090430] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:07:51 INFO [HOLIDAY] 090430 아모레퍼시픽: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:07:52 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:07:55 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:07:59 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:07:59 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:08:01 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:08:06 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:08:06 WARNING [002790] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:08:06 INFO [HOLIDAY] 002790 아모레퍼시픽홀딩스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:08:07 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:08:09 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:08:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:08:13 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:08:16 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:08:20 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:08:20 WARNING [002030] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:08:20 INFO [HOLIDAY] 002030 아세아: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:08:21 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:08:23 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:08:27 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:08:27 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:08:30 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:08:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:08:34 WARNING [282330] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:08:34 INFO [HOLIDAY] 282330 BGF리테일: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:08:35 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:08:37 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:08:41 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:08:42 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:08:44 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:08:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:08:48 WARNING [138930] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:08:48 INFO [HOLIDAY] 138930 BNK금융지주: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:08:49 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:08:52 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:08:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:08:56 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:08:58 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:09:03 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:09:03 WARNING [068270] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:09:03 INFO [HOLIDAY] 068270 셀트리온: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:09:04 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:09:06 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:09:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:09:10 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:09:13 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:09:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:09:17 WARNING [030000] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:09:17 INFO [HOLIDAY] 030000 제일기획: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:09:18 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:09:20 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:09:24 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:09:24 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:09:27 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:09:31 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:09:31 WARNING [185750] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:09:31 INFO [HOLIDAY] 185750 종근당: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:09:32 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:09:35 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:09:40 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:09:40 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:09:42 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:09:46 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:09:46 WARNING [001040] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:09:46 INFO [HOLIDAY] 001040 CJ: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:09:47 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:09:49 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:09:54 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:09:54 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:09:56 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:10:01 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:10:01 WARNING [097950] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:10:01 INFO [HOLIDAY] 097950 CJ제일제당: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:10:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:10:04 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:10:08 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:10:08 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:10:10 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:10:15 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:10:15 WARNING [000120] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:10:15 INFO [HOLIDAY] 000120 CJ대한통운: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:10:16 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:10:18 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:10:22 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:10:23 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:10:25 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:10:29 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:10:29 WARNING [192820] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:10:29 INFO [HOLIDAY] 192820 코스맥스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:10:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:10:32 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:10:37 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:10:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:10:39 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:10:43 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:10:43 WARNING [005420] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:10:43 INFO [HOLIDAY] 005420 코스모화학: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:10:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:10:46 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:10:51 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:10:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:10:53 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:10:57 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:10:57 WARNING [021240] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:10:57 INFO [HOLIDAY] 021240 코웨이: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:10:58 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:11:01 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:11:05 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:11:05 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:11:08 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:11:12 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:11:12 WARNING [112610] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:11:12 INFO [HOLIDAY] 112610 씨에스윈드: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:11:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:11:15 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:11:19 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:11:20 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:11:22 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:11:26 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:11:26 WARNING [001680] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:11:26 INFO [HOLIDAY] 001680 대상: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:11:27 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:11:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:11:34 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:11:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:11:36 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:11:41 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:11:41 WARNING [047040] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:11:41 INFO [HOLIDAY] 047040 대우건설: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:11:41 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:11:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:11:48 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:11:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:11:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:11:55 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:11:55 WARNING [003090] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:11:55 INFO [HOLIDAY] 003090 대웅: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:11:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:11:58 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:12:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:12:03 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:12:05 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:12:09 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:12:09 WARNING [069620] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:12:09 INFO [HOLIDAY] 069620 대웅제약: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:12:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:12:12 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:12:17 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:12:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:12:19 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:12:24 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:12:24 WARNING [005830] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:12:24 INFO [HOLIDAY] 005830 DB손해보험: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:12:25 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:12:27 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:12:31 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:12:32 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:12:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:12:38 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:12:38 WARNING [000210] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:12:38 INFO [HOLIDAY] 000210 DL: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:12:39 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:12:41 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:12:46 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:12:46 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:12:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:12:53 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:12:53 WARNING [375500] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:12:53 INFO [HOLIDAY] 375500 DL이앤씨: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:12:54 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:12:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:13:00 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:13:00 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:13:02 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:13:07 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:13:07 WARNING [007340] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:13:07 INFO [HOLIDAY] 007340 DN오토모티브: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:13:08 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:13:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:13:14 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:13:14 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:13:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:13:21 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:13:21 WARNING [026960] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:13:21 INFO [HOLIDAY] 026960 동서: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:13:22 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:13:24 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:13:28 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:13:29 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:13:31 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:13:35 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:13:35 WARNING [006040] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:13:35 INFO [HOLIDAY] 006040 동원산업: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:13:36 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:13:38 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:13:43 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:13:43 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:13:45 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:13:50 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:13:50 WARNING [014820] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:13:50 INFO [HOLIDAY] 014820 동원시스템즈: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:13:51 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:13:53 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:13:57 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:13:57 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:14:00 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:14:04 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:14:04 WARNING [000150] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:14:04 INFO [HOLIDAY] 000150 두산: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:14:05 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:14:07 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:14:11 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:14:12 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:14:14 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:14:18 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:14:18 WARNING [241560] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:14:18 INFO [HOLIDAY] 241560 두산밥캣: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:14:19 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:14:21 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:14:26 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:14:26 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:14:28 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:14:32 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:14:32 WARNING [454910] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:14:32 INFO [HOLIDAY] 454910 두산로보틱스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:14:33 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:14:36 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:14:40 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:14:40 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:14:43 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:14:47 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:14:47 WARNING [192080] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:14:47 INFO [HOLIDAY] 192080 더블유게임즈: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:14:48 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:14:50 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:14:54 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:14:55 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:14:57 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:15:01 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:15:01 WARNING [450080] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:15:01 INFO [HOLIDAY] 450080 에코프로머티: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:15:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:15:04 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:15:08 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:15:09 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:15:11 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:15:15 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:15:15 WARNING [139480] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:15:15 INFO [HOLIDAY] 139480 이마트: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:15:16 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:15:18 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:15:23 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:15:23 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:15:25 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:15:30 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:15:30 WARNING [383220] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:15:30 INFO [HOLIDAY] 383220 F&F: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:15:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:15:33 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:15:37 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:15:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:15:39 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:15:44 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:15:44 WARNING [093370] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:15:44 INFO [HOLIDAY] 093370 후성: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:15:45 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:15:47 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:15:52 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:15:52 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:15:54 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:15:58 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:15:58 WARNING [114090] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:15:58 INFO [HOLIDAY] 114090 GKL: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:16:00 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:16:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:16:06 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:16:06 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:16:08 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:16:13 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:16:13 WARNING [006280] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:16:13 INFO [HOLIDAY] 006280 GC녹십자: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:16:14 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:16:16 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:16:20 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:16:20 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:16:23 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:16:27 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:16:27 WARNING [005250] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:16:27 INFO [HOLIDAY] 005250 녹십자홀딩스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:16:28 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:16:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:16:34 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:16:35 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:16:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:16:41 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:16:41 WARNING [078930] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:16:41 INFO [HOLIDAY] 078930 GS: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:16:42 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:16:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:16:49 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:16:49 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:16:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:16:55 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:16:55 WARNING [006360] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:16:55 INFO [HOLIDAY] 006360 GS건설: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:16:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:16:58 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:17:03 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:17:03 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:17:05 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:17:09 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:17:09 WARNING [007070] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:17:09 INFO [HOLIDAY] 007070 GS리테일: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:17:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:17:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:17:17 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:17:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:17:20 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:17:24 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:17:24 WARNING [086790] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:17:24 INFO [HOLIDAY] 086790 하나금융지주: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:17:25 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:17:27 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:17:31 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:17:32 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:17:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:17:38 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:17:38 WARNING [009420] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:17:38 INFO [HOLIDAY] 009420 한올바이오파마: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:17:39 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:17:41 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:17:46 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:17:46 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:17:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:17:52 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:17:52 WARNING [300720] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:17:52 INFO [HOLIDAY] 300720 한일시멘트: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:17:53 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:17:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:18:00 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:18:00 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:18:02 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:18:06 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:18:06 WARNING [180640] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:18:06 INFO [HOLIDAY] 180640 한진칼: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:18:07 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:18:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:18:14 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:18:14 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:18:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:18:21 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:18:21 WARNING [161390] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:18:21 INFO [HOLIDAY] 161390 한국타이어앤테크놀로지: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:18:22 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:18:24 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:18:28 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:18:28 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:18:31 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:18:35 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:18:35 WARNING [000240] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:18:35 INFO [HOLIDAY] 000240 한국앤컴퍼니: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:18:36 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:18:38 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:18:42 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:18:43 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:18:45 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:18:49 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:18:49 WARNING [128940] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:18:49 INFO [HOLIDAY] 128940 한미약품: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:18:50 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:18:52 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:18:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:18:57 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:18:59 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:19:03 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:19:03 WARNING [008930] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:19:03 INFO [HOLIDAY] 008930 한미사이언스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:19:04 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:19:06 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:19:11 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:19:11 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:19:13 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:19:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:19:17 WARNING [018880] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:19:17 INFO [HOLIDAY] 018880 한온시스템: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:19:18 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:19:21 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:19:25 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:19:25 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:19:27 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:19:32 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:19:32 WARNING [014680] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:19:32 INFO [HOLIDAY] 014680 한솔케미칼: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:19:33 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:19:35 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:19:39 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:19:39 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:19:42 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:19:46 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:19:46 WARNING [009240] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:19:46 INFO [HOLIDAY] 009240 한샘: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:19:47 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:19:49 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:19:53 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:19:54 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:19:56 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:20:00 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:20:00 WARNING [082740] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:20:00 INFO [HOLIDAY] 082740 한화엔진: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:20:01 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:20:03 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:20:08 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:20:08 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:20:10 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:20:14 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:20:14 WARNING [088350] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:20:14 INFO [HOLIDAY] 088350 한화생명: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:20:15 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:20:18 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:20:22 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:20:22 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:20:25 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:20:29 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:20:29 WARNING [009830] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:20:29 INFO [HOLIDAY] 009830 한화솔루션: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:20:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:20:33 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:20:37 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:20:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:20:39 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:20:44 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:20:44 WARNING [267250] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:20:44 INFO [HOLIDAY] 267250 HD현대: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:20:45 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:20:47 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:20:52 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:20:52 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:20:54 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:20:58 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:20:58 WARNING [329180] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:20:58 INFO [HOLIDAY] 329180 HD현대중공업: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:20:59 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:21:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:21:06 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:21:06 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:21:08 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:21:13 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:21:13 WARNING [071970] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:21:13 INFO [HOLIDAY] 071970 HD현대마린엔진: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:21:14 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:21:16 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:21:20 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:21:20 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:21:23 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:21:27 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:21:27 WARNING [443060] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:21:27 INFO [HOLIDAY] 443060 HD현대마린솔루션: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:21:28 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:21:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:21:34 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:21:35 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:21:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:21:41 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:21:41 WARNING [009540] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:21:41 INFO [HOLIDAY] 009540 HD한국조선해양: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:21:42 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:21:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:21:49 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:21:49 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:21:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:21:55 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:21:55 WARNING [017960] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:21:55 INFO [HOLIDAY] 017960 한국카본: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:21:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:21:59 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:22:03 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:22:03 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:22:05 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:22:10 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:22:10 WARNING [000080] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:22:10 INFO [HOLIDAY] 000080 하이트진로: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:22:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:22:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:22:17 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:22:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:22:19 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:22:24 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:22:24 WARNING [204320] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:22:24 INFO [HOLIDAY] 204320 HL만도: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:22:25 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:22:27 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:22:31 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:22:31 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:22:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:22:38 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:22:38 WARNING [011200] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:22:38 INFO [HOLIDAY] 011200 HMM: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:22:39 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:22:41 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:22:45 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:22:46 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:22:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:22:52 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:22:52 WARNING [008770] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:22:52 INFO [HOLIDAY] 008770 호텔신라: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:22:53 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:22:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:23:00 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:23:00 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:23:03 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:23:07 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:23:07 WARNING [298050] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:23:07 INFO [HOLIDAY] 298050 효성첨단소재: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:23:08 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:23:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:23:15 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:23:15 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:23:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:23:22 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:23:22 WARNING [352820] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:23:22 INFO [HOLIDAY] 352820 하이브: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:23:23 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:23:25 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:23:29 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:23:30 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:23:32 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:23:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:23:37 WARNING [298040] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:23:37 INFO [HOLIDAY] 298040 효성중공업: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:23:38 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:23:40 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:23:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:23:44 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:23:46 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:23:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:23:51 WARNING [298020] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:23:51 INFO [HOLIDAY] 298020 효성티앤씨: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:23:52 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:23:54 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:23:58 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:23:58 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:24:01 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:24:05 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:24:05 WARNING [307950] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:24:05 INFO [HOLIDAY] 307950 현대오토에버: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:24:06 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:24:09 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:24:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:24:13 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:24:15 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:24:20 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:24:20 WARNING [069960] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:24:20 INFO [HOLIDAY] 069960 현대백화점: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:24:20 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:24:23 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:24:27 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:24:27 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:24:29 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:24:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:24:34 WARNING [000720] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:24:34 INFO [HOLIDAY] 000720 현대건설: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:24:35 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:24:37 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:24:41 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:24:41 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:24:44 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:24:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:24:48 WARNING [017800] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:24:48 INFO [HOLIDAY] 017800 현대엘리베이: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:24:49 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:24:51 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:24:55 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:24:56 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:24:58 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:25:02 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:25:02 WARNING [086280] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:25:02 INFO [HOLIDAY] 086280 현대글로비스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:25:03 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:25:05 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:25:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:25:10 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:25:12 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:25:16 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:25:16 WARNING [001450] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:25:16 INFO [HOLIDAY] 001450 현대해상: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:25:17 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:25:19 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:25:24 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:25:24 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:25:26 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:25:30 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:25:30 WARNING [004020] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:25:30 INFO [HOLIDAY] 004020 현대제철: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:25:31 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:25:34 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:25:38 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:25:38 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:25:40 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:25:45 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:25:45 WARNING [011210] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:25:45 INFO [HOLIDAY] 011210 현대위아: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:25:45 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:25:48 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:25:52 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:25:52 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:25:54 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:25:59 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:25:59 WARNING [139130] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:25:59 INFO [HOLIDAY] 139130 iM금융지주: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:26:00 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:26:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:26:07 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:26:07 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:26:09 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:26:13 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:26:13 WARNING [024110] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:26:13 INFO [HOLIDAY] 024110 기업은행: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:26:14 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:26:17 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:26:21 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:26:21 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:26:23 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:26:28 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:26:28 WARNING [457190] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:26:28 INFO [HOLIDAY] 457190 이수스페셜티케미컬: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:26:29 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:26:31 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:26:36 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:26:36 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:26:38 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:26:42 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:26:42 WARNING [175330] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:26:42 INFO [HOLIDAY] 175330 JB금융지주: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:26:43 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:26:46 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:26:50 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:26:50 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:26:52 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:26:57 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:26:57 WARNING [035720] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:26:57 INFO [HOLIDAY] 035720 카카오: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:26:57 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:27:00 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:27:04 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:27:04 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:27:06 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:27:11 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:27:11 WARNING [323410] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:27:11 INFO [HOLIDAY] 323410 카카오뱅크: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:27:12 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:27:14 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:27:18 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:27:18 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:27:21 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:27:25 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:27:25 WARNING [377300] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:27:25 INFO [HOLIDAY] 377300 카카오페이: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:27:26 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:27:28 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:27:32 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:27:32 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:27:35 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:27:39 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:27:39 WARNING [035250] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:27:39 INFO [HOLIDAY] 035250 강원랜드: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:27:40 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:27:42 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:27:46 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:27:47 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:27:49 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:27:53 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:27:53 WARNING [105560] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:27:53 INFO [HOLIDAY] 105560 KB금융: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:27:54 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:27:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:28:01 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:28:01 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:28:03 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:28:07 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:28:07 WARNING [002380] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:28:07 INFO [HOLIDAY] 002380 KCC: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:28:08 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:28:11 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:28:15 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:28:15 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:28:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:28:22 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:28:22 WARNING [015760] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:28:22 INFO [HOLIDAY] 015760 한국전력: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:28:23 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:28:25 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:28:29 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:28:29 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:28:31 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:28:36 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:28:36 WARNING [052690] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:28:36 INFO [HOLIDAY] 052690 한전기술: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:28:37 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:28:39 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:28:43 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:28:43 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:28:46 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:28:50 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:28:50 WARNING [051600] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:28:50 INFO [HOLIDAY] 051600 한전KPS: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:28:51 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:28:53 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:28:57 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:28:58 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:29:00 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:29:04 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:29:04 WARNING [000270] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:29:04 INFO [HOLIDAY] 000270 기아: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:29:05 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:29:07 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:29:12 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:29:12 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:29:14 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:29:18 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:29:18 WARNING [039490] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:29:18 INFO [HOLIDAY] 039490 키움증권: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:29:19 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:29:22 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:29:26 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:29:26 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:29:28 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:29:32 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:29:32 WARNING [120110] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:29:32 INFO [HOLIDAY] 120110 코오롱인더: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:29:33 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:29:36 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:29:40 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:29:40 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:29:42 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:29:47 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:29:47 WARNING [047810] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:29:47 INFO [HOLIDAY] 047810 한국항공우주: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:29:48 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:29:50 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:29:54 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:29:55 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:29:57 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:30:01 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:30:01 WARNING [071320] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:30:01 INFO [HOLIDAY] 071320 한국지역난방공사: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:30:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:30:04 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:30:09 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:30:09 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:30:11 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:30:15 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:30:15 WARNING [036460] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:30:15 INFO [HOLIDAY] 036460 한국가스공사: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:30:16 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:30:18 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:30:23 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:30:23 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:30:25 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:30:29 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:30:29 WARNING [071050] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:30:29 INFO [HOLIDAY] 071050 한국금융지주: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:30:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:30:33 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:30:37 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:30:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:30:39 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:30:44 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:30:44 WARNING [006650] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:30:44 INFO [HOLIDAY] 006650 대한유화: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:30:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:30:47 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:30:51 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:30:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:30:54 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:30:58 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:30:58 WARNING [010130] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:30:58 INFO [HOLIDAY] 010130 고려아연: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:30:59 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:31:01 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:31:05 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:31:06 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:31:08 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:31:12 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:31:12 WARNING [003490] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:31:12 INFO [HOLIDAY] 003490 대한항공: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:31:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:31:15 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:31:20 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:31:20 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:31:22 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:31:27 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:31:27 WARNING [259960] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:31:27 INFO [HOLIDAY] 259960 크래프톤: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:31:27 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:31:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:31:34 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:31:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:31:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:31:41 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:31:41 WARNING [030200] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:31:41 INFO [HOLIDAY] 030200 KT: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:31:42 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:31:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:31:48 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:31:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:31:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:31:55 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:31:55 WARNING [033780] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:31:55 INFO [HOLIDAY] 033780 KT&G: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:31:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:31:58 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:32:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:32:03 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:32:05 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:32:09 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:32:09 WARNING [011780] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:32:09 INFO [HOLIDAY] 011780 금호석유: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:32:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:32:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:32:17 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:32:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:32:19 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:32:24 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:32:24 WARNING [073240] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:32:24 INFO [HOLIDAY] 073240 금호타이어: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:32:25 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:32:27 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:32:31 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:32:31 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:32:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:32:38 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:32:38 WARNING [066970] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:32:38 INFO [HOLIDAY] 066970 엘앤에프: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:32:39 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:32:41 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:32:45 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:32:46 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:32:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:32:52 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:32:52 WARNING [051910] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:32:52 INFO [HOLIDAY] 051910 LG화학: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:32:53 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:32:55 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:32:59 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:33:00 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:33:02 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:33:06 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:33:06 WARNING [034220] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:33:06 INFO [HOLIDAY] 034220 LG디스플레이: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:33:07 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:33:09 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:33:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:33:14 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:33:16 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:33:20 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:33:20 WARNING [373220] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:33:20 INFO [HOLIDAY] 373220 LG에너지솔루션: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:33:21 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:33:24 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:33:28 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:33:28 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:33:31 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:33:35 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:33:35 WARNING [051900] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:33:35 INFO [HOLIDAY] 051900 LG생활건강: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:33:36 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:33:38 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:33:42 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:33:43 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:33:45 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:33:49 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:33:49 WARNING [011070] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:33:49 INFO [HOLIDAY] 011070 LG이노텍: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:33:50 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:33:53 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:33:57 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:33:57 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:33:59 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:34:04 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:34:04 WARNING [032640] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:34:04 INFO [HOLIDAY] 032640 LG유플러스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:34:05 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:34:07 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:34:11 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:34:11 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:34:14 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:34:18 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:34:18 WARNING [079550] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:34:18 INFO [HOLIDAY] 079550 LIG넥스원: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:34:19 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:34:21 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:34:25 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:34:26 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:34:28 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:34:32 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:34:32 WARNING [004990] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:34:32 INFO [HOLIDAY] 004990 롯데지주: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:34:33 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:34:35 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:34:40 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:34:40 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:34:42 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:34:46 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:34:46 WARNING [011170] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:34:46 INFO [HOLIDAY] 011170 롯데케미칼: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:34:47 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:34:49 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:34:54 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:34:54 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:34:56 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:35:00 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:35:00 WARNING [005300] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:35:00 INFO [HOLIDAY] 005300 롯데칠성: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:35:01 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:35:04 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:35:08 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:35:08 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:35:10 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:35:15 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:35:15 WARNING [004000] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:35:15 INFO [HOLIDAY] 004000 롯데정밀화학: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:35:16 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:35:18 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:35:22 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:35:23 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:35:25 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:35:29 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:35:29 WARNING [023530] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:35:29 INFO [HOLIDAY] 023530 롯데쇼핑: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:35:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:35:33 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:35:37 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:35:38 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:35:40 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:35:44 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:35:44 WARNING [280360] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:35:44 INFO [HOLIDAY] 280360 롯데웰푸드: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:35:45 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:35:47 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:35:52 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:35:52 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:35:55 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:35:59 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:35:59 WARNING [138040] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:35:59 INFO [HOLIDAY] 138040 메리츠금융지주: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:36:01 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:36:03 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:36:08 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:36:08 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:36:11 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:36:16 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:36:16 WARNING [006800] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:36:16 INFO [HOLIDAY] 006800 미래에셋증권: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:36:17 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:36:20 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:36:25 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:36:26 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:36:28 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:36:33 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:36:33 WARNING [081660] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:36:33 INFO [HOLIDAY] 081660 미스토홀딩스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:36:34 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:36:36 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:36:41 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:36:42 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:36:45 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:36:49 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:36:49 WARNING [002840] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:36:49 INFO [HOLIDAY] 002840 미원상사: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:36:50 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:36:53 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:36:57 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:36:57 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:37:00 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:37:04 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:37:04 WARNING [268280] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:37:04 INFO [HOLIDAY] 268280 미원에스씨: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:37:05 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:37:07 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:37:11 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:37:12 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:37:14 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:37:18 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:37:18 WARNING [035420] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:37:18 INFO [HOLIDAY] 035420 NAVER: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:37:19 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:37:21 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:37:26 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:37:26 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:37:28 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:37:33 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:37:33 WARNING [036570] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:37:33 INFO [HOLIDAY] 036570 엔씨소프트: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:37:34 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:37:36 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:37:40 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:37:40 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:37:42 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:37:47 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:37:47 WARNING [251270] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:37:47 INFO [HOLIDAY] 251270 넷마블: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:37:48 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:37:50 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:37:54 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:37:55 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:37:57 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:38:01 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:38:01 WARNING [005940] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:38:01 INFO [HOLIDAY] 005940 NH투자증권: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:38:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:38:04 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:38:08 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:38:09 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:38:11 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:38:15 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:38:15 WARNING [004370] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:38:15 INFO [HOLIDAY] 004370 농심: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:38:16 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:38:18 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:38:23 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:38:23 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:38:25 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:38:29 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:38:29 WARNING [010060] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:38:29 INFO [HOLIDAY] 010060 OCI홀딩스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:38:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:38:33 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:38:37 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:38:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:38:39 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:38:44 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:38:44 WARNING [271560] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:38:44 INFO [HOLIDAY] 271560 오리온: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:38:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:38:47 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:38:51 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:38:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:38:53 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:38:58 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:38:58 WARNING [001800] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:38:58 INFO [HOLIDAY] 001800 오리온홀딩스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:38:59 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:39:01 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:39:05 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:39:05 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:39:08 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:39:12 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:39:12 WARNING [007310] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:39:12 INFO [HOLIDAY] 007310 오뚜기: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:39:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:39:15 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:39:19 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:39:20 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:39:22 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:39:26 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:39:26 WARNING [028670] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:39:26 INFO [HOLIDAY] 028670 팬오션: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:39:27 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:39:29 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:39:34 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:39:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:39:36 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:39:40 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:39:40 WARNING [034230] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:39:40 INFO [HOLIDAY] 034230 파라다이스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:39:41 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:39:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:39:48 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:39:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:39:50 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:39:55 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:39:55 WARNING [103140] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:39:55 INFO [HOLIDAY] 103140 풍산: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:39:55 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:39:58 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:40:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:40:03 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:40:05 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:40:09 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:40:09 WARNING [022100] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:40:09 INFO [HOLIDAY] 022100 포스코DX: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:40:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:40:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:40:17 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:40:17 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:40:19 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:40:24 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:40:24 WARNING [003670] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:40:24 INFO [HOLIDAY] 003670 포스코퓨처엠: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:40:25 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:40:27 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:40:31 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:40:32 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:40:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:40:39 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:40:39 WARNING [047050] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:40:39 INFO [HOLIDAY] 047050 포스코인터내셔널: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:40:40 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:40:42 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:40:46 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:40:46 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:40:49 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:40:53 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:40:53 WARNING [012750] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:40:53 INFO [HOLIDAY] 012750 에스원: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:40:54 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:40:56 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:41:00 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:41:01 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:41:03 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:41:07 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:41:07 WARNING [062040] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:41:07 INFO [HOLIDAY] 062040 산일전기: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:41:08 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:41:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:41:15 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:41:16 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:41:18 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:41:22 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:41:22 WARNING [207940] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:41:22 INFO [HOLIDAY] 207940 삼성바이오로직스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:41:23 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:41:25 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:41:29 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:41:30 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:41:32 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:41:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:41:37 WARNING [029780] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:41:37 INFO [HOLIDAY] 029780 삼성카드: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:41:38 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:41:40 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:41:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:41:45 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:41:47 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:41:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:41:51 WARNING [028050] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:41:51 INFO [HOLIDAY] 028050 삼성E&A: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:41:52 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:41:54 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:41:59 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:41:59 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:42:01 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:42:05 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:42:05 WARNING [000810] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:42:05 INFO [HOLIDAY] 000810 삼성화재: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:42:06 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:42:09 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:42:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:42:13 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:42:15 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:42:19 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:42:19 WARNING [032830] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:42:19 INFO [HOLIDAY] 032830 삼성생명: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:42:20 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:42:23 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:42:27 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:42:27 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:42:29 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:42:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:42:34 WARNING [016360] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:42:34 INFO [HOLIDAY] 016360 삼성증권: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:42:34 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:42:37 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:42:41 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:42:41 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:42:43 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:42:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:42:48 WARNING [003230] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:42:48 INFO [HOLIDAY] 003230 삼양식품: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:42:49 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:42:51 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:42:55 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:42:55 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:42:58 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:43:02 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:43:02 WARNING [137310] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:43:02 INFO [HOLIDAY] 137310 에스디바이오센서: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:43:03 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:43:05 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:43:09 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:43:10 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:43:12 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:43:16 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:43:16 WARNING [001430] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:43:16 INFO [HOLIDAY] 001430 세아베스틸지주: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:43:17 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:43:19 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:43:23 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:43:24 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:43:26 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:43:30 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:43:30 WARNING [003030] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:43:30 INFO [HOLIDAY] 003030 세아제강지주: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:43:31 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:43:33 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:43:38 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:43:38 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:43:40 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:43:45 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:43:45 WARNING [004490] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:43:45 INFO [HOLIDAY] 004490 세방전지: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:43:46 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:43:48 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:43:52 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:43:53 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:43:55 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:43:59 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:43:59 WARNING [055550] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:43:59 INFO [HOLIDAY] 055550 신한지주: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:44:00 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:44:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:44:07 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:44:07 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:44:09 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:44:13 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:44:13 WARNING [004170] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:44:13 INFO [HOLIDAY] 004170 신세계: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:44:14 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:44:17 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:44:21 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:44:21 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:44:23 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:44:27 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:44:27 WARNING [326030] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:44:27 INFO [HOLIDAY] 326030 SK바이오팜: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:44:28 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:44:31 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:44:35 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:44:35 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:44:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:44:42 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:44:42 WARNING [302440] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:44:42 INFO [HOLIDAY] 302440 SK바이오사이언스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:44:43 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:44:45 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:44:49 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:44:49 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:44:52 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:44:56 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:44:56 WARNING [285130] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:44:56 INFO [HOLIDAY] 285130 SK케미칼: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:44:57 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:44:59 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:45:03 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:45:04 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:45:06 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:45:10 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:45:10 WARNING [361610] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:45:10 INFO [HOLIDAY] 361610 SKIET: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:45:11 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:45:13 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:45:18 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:45:18 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:45:20 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:45:25 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:45:25 WARNING [017670] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:45:25 INFO [HOLIDAY] 017670 SK텔레콤: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:45:25 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:45:28 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:45:32 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:45:32 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:45:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:45:39 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:45:39 WARNING [011790] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:45:39 INFO [HOLIDAY] 011790 SKC: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:45:40 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:45:42 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:45:46 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:45:46 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:45:49 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:45:54 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:45:54 WARNING [005850] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:45:54 INFO [HOLIDAY] 005850 에스엘: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:45:55 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:45:57 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:46:02 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:46:02 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:46:04 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:46:08 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:46:08 WARNING [010950] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:46:08 INFO [HOLIDAY] 010950 S-Oil: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:46:09 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:46:12 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:46:16 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:46:16 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:46:18 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:46:22 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:46:22 WARNING [003240] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:46:22 INFO [HOLIDAY] 003240 태광산업: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:46:23 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:46:26 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:46:30 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:46:30 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:46:32 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:46:37 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:46:37 WARNING [001440] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:46:37 INFO [HOLIDAY] 001440 대한전선: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:46:38 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:46:40 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:46:44 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:46:44 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:46:47 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:46:51 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:46:51 WARNING [069260] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:46:51 INFO [HOLIDAY] 069260 휴켐스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:46:52 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:46:54 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:46:58 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:46:59 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:47:01 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:47:05 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:47:05 WARNING [316140] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:47:05 INFO [HOLIDAY] 316140 우리금융지주: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:47:06 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:47:08 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:47:12 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:47:13 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:47:15 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:47:19 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:47:19 WARNING [008730] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:47:19 INFO [HOLIDAY] 008730 율촌화학: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:47:20 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:47:23 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:47:27 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:47:27 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:47:29 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:47:34 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:47:34 WARNING [000670] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:47:34 INFO [HOLIDAY] 000670 영풍: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:47:35 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:47:37 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:47:41 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:47:41 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:47:44 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:47:48 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:47:48 WARNING [111770] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:47:48 INFO [HOLIDAY] 111770 영원무역: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:47:49 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:47:51 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:47:55 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:47:56 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:47:58 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:48:02 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:48:02 WARNING [009970] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:48:02 INFO [HOLIDAY] 009970 영원무역홀딩스: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:48:03 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:48:05 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:48:10 INFO Length mismatch: Expected axis has 0 elements, new values have 13 elements
+2026-07-17 07:48:10 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:48:12 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:48:16 INFO Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2026-07-17 07:48:16 WARNING [000100] trader fetch 실패. 수급 0으로 채움.
+2026-07-17 07:48:16 INFO [HOLIDAY] 000100 유한양행: 신규 거래일 없음 (휴장 또는 미정산)
+2026-07-17 07:48:17 INFO === Daily update done === stats: {'backfill': 0, 'update': 0, 'skip': 0, 'holiday': 199, 'archive': 0, 'error': 0}
